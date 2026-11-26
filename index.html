@@ -3,19 +3,20 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>vos mandá — La plataforma de pedidos propios para locales de San Juan</title>
+<title>vosmandá — La plataforma de pedidos propios para locales de San Juan</title>
 <meta name="description" content="Tu canal de pedidos propio, sin comisión, para locales de comida de San Juan. Cobrás al instante y tus clientes vuelven.">
-<meta property="og:title" content="vos mandá — pedidos propios sin comisión">
+<meta property="og:title" content="vosmandá — pedidos propios sin comisión">
 <meta property="og:description" content="Tu canal de pedidos propio, sin comisión, para locales de comida de San Juan. Cobrás al instante y tus clientes vuelven.">
-<meta name="theme-color" content="#0F3D2E">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath fill='%230F3D2E' d='M14 4h20c5.5 0 10 4.5 10 10v14c0 5.5-4.5 10-10 10H19l-9.5 6.5c-.7.5-1.5 0-1.5-.8v-6.5C5.6 35.5 4 32.4 4 28V14C4 8.5 8.5 4 14 4z'/%3E%3Cpath d='M15.5 20.5l7 8 10.5-13' fill='none' stroke='%23C8F169' stroke-width='5.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<meta name="theme-color" content="#111111">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Cdefs%3E%3Cmask id=%22m%22%3E%3Crect width=%22100%22 height=%22100%22 fill=%22%23fff%22/%3E%3Cpath d=%22M12 40 A9.5 9.5 0 0 0 31 40 A9.5 9.5 0 0 0 50 40 A9.5 9.5 0 0 0 69 40 A9.5 9.5 0 0 0 88 40%22 fill=%22none%22 stroke=%22%23000%22 stroke-width=%226.5%22 stroke-linecap=%22round%22/%3E%3Cpath d=%22M42 93 V77 A8 8 0 0 1 58 77 V93 Z%22 fill=%22%23000%22/%3E%3C/mask%3E%3C/defs%3E%3Crect x=%226%22 y=%228%22 width=%2288%22 height=%2284%22 rx=%2222%22 fill=%22%23EC2D74%22 mask=%22url%28%23m%29%22/%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="marca/vosmanda-app-fucsia-180.png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Inter+Tight:wght@500;600;700;800&amp;display=swap" rel="stylesheet">
 <style>
 body{margin:0;background:#FFFFFF}
-a{color:#0F3D2E}a:hover{color:#0B1F17}
-input[type=range]{accent-color:#0F3D2E;width:100%;height:28px}
+a{color:#111111}a:hover{color:#111111}
+input[type=range]{accent-color:#111111;width:100%;height:28px}
 details summary{cursor:pointer;list-style:none}
 details summary::-webkit-details-marker{display:none}
 @keyframes vm-rot{0%,20%{transform:translateY(0)}25%,45%{transform:translateY(-1.12em)}50%,70%{transform:translateY(-2.24em)}75%,95%{transform:translateY(-3.36em)}100%{transform:translateY(-4.48em)}}
@@ -50,11 +51,11 @@ details summary::-webkit-details-marker{display:none}
 .vm-blink{animation:vm-blink 1.2s steps(2,start) infinite}
 @supports (animation-timeline: view()){.vm-reveal{animation:vm-in linear both;animation-timeline:view();animation-range:entry 0% cover 20%}}
 .vm-card{transition:transform .35s cubic-bezier(.2,.7,.2,1),box-shadow .35s}
-.vm-card:hover{transform:translateY(-8px);box-shadow:0 28px 60px rgba(11,31,23,.22)}
+.vm-card:hover{transform:translateY(-8px);box-shadow:0 28px 60px rgba(17,17,17,.22)}
 .vm-btn{transition:transform .2s ease,filter .2s ease}
 .vm-btn:hover{transform:translateY(-2px);filter:brightness(1.06)}
 .vm-tab{transition:color .2s}
-.vm-tab:hover{color:#0B1F17 !important}
+.vm-tab:hover{color:#111111 !important}
 @media (max-width: 960px){.vm-side{display:none !important}}
 @media (max-width: 700px){nav[aria-label="Principal"] a:not(.vm-btn){display:none !important}}
 @media (prefers-reduced-motion: reduce){.vm-rot,.vm-flow,.vm-flow2,.vm-drift,.vm-track,.vm-phone,.vm-float,.vm-bob,.vm-pulse,.vm-reveal,.vm-blink,.vm-in{animation:none !important}.vm-toast{animation:none !important;opacity:0}.vm-toast.vm-d0{opacity:1}.vm-fill{animation:none !important;transform:scaleX(1)}}
@@ -65,21 +66,20 @@ details summary::-webkit-details-marker{display:none}
 <body>
 
 
-<div style="font-family: Inter, system-ui, sans-serif; color: #0B1F17; background: #FFFFFF; min-height: 100vh; overflow-x: hidden">
+<div style="font-family: Inter, system-ui, sans-serif; color: #111111; background: #FFFFFF; min-height: 100vh; overflow-x: hidden">
 
 <!-- NAV -->
 <header style="position: sticky; top: 0; z-index: 20; background: rgba(255,255,255,0.92); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px)">
 <div style="max-width: 1240px; margin: 0 auto; padding: 14px 24px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap">
-<a href="#inicio" aria-label="vos mandá, inicio" style="display: flex; align-items: center; gap: 9px; text-decoration: none; color: #0B1F17">
-<svg width="36" height="36" viewBox="0 0 48 48" aria-hidden="true" style="flex: none"><path fill="#0F3D2E" d="M14 4h20c5.5 0 10 4.5 10 10v14c0 5.5-4.5 10-10 10H19l-9.5 6.5c-.7.5-1.5 0-1.5-.8v-6.5C5.6 35.5 4 32.4 4 28V14C4 8.5 8.5 4 14 4z"></path><path d="M15.5 20.5l7 8 10.5-13" fill="none" stroke="#C8F169" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-<span style="font-family: 'Inter Tight', Inter, sans-serif; font-size: 24px; letter-spacing: -0.04em; line-height: 1; color: #0B1F17"><span style="font-weight: 500">vos</span><span style="font-weight: 800">mandá</span></span>
+<a href="#inicio" aria-label="vosmandá, inicio" style="display: flex; align-items: center; gap: 9px; text-decoration: none; color: #111111">
+<svg viewBox="0 0 445.65 100" height="34" width="152" aria-hidden="true" style="flex: none; display: block"><defs><mask id="vmlogo0"><rect width="100" height="100" fill="#fff"/><path d="M12 40 A9.5 9.5 0 0 0 31 40 A9.5 9.5 0 0 0 50 40 A9.5 9.5 0 0 0 69 40 A9.5 9.5 0 0 0 88 40" fill="none" stroke="#000" stroke-width="6.5" stroke-linecap="round"/><path d="M42 93 V77 A8 8 0 0 1 58 77 V93 Z" fill="#000"/></mask></defs><rect x="6" y="8" width="88" height="84" rx="22" fill="#EC2D74" mask="url(#vmlogo0)"/><path d="M137.03 67.5 122.16 33.69H132.2L142.95 61.55H137.93L148.71 33.69H158.47L143.59 67.5Z M176.5 68.23Q171.4 68.23 167.3 65.89Q163.2 63.55 160.8 59.52Q158.4 55.49 158.4 50.52Q158.4 45.55 160.79 41.6Q163.18 37.64 167.28 35.3Q171.39 32.95 176.48 32.95Q181.62 32.95 185.72 35.27Q189.81 37.59 192.21 41.57Q194.61 45.55 194.61 50.52Q194.61 55.49 192.22 59.52Q189.83 63.55 185.74 65.89Q181.64 68.23 176.5 68.23ZM176.48 59.66Q179.07 59.66 181.05 58.5Q183.02 57.35 184.12 55.28Q185.21 53.2 185.21 50.54Q185.21 47.88 184.08 45.86Q182.95 43.84 181.01 42.69Q179.07 41.53 176.48 41.53Q173.96 41.53 171.98 42.69Q170 43.86 168.9 45.88Q167.8 47.9 167.8 50.56Q167.8 53.2 168.9 55.28Q170 57.35 171.98 58.5Q173.96 59.66 176.48 59.66Z M211.06 68.29Q208.15 68.29 205.41 67.53Q202.66 66.77 200.34 65.37Q198.02 63.98 196.34 62.04L201.82 56.51Q203.55 58.45 205.84 59.46Q208.14 60.46 210.94 60.46Q213.18 60.46 214.34 59.81Q215.5 59.15 215.5 57.91Q215.5 56.51 214.27 55.76Q213.04 55 211.09 54.45Q209.15 53.9 207 53.26Q204.85 52.62 202.89 51.52Q200.94 50.42 199.72 48.49Q198.49 46.55 198.49 43.49Q198.49 40.25 200.09 37.88Q201.68 35.51 204.6 34.19Q207.52 32.87 211.53 32.87Q215.71 32.87 219.12 34.33Q222.52 35.79 224.73 38.71L219.23 44.24Q217.69 42.39 215.75 41.54Q213.81 40.69 211.62 40.69Q209.55 40.69 208.48 41.31Q207.4 41.93 207.4 43.07Q207.4 44.31 208.62 45.01Q209.85 45.71 211.79 46.24Q213.74 46.76 215.88 47.44Q218.02 48.11 219.97 49.29Q221.91 50.47 223.13 52.43Q224.36 54.39 224.36 57.52Q224.36 62.48 220.77 65.38Q217.18 68.29 211.06 68.29Z M229.42 67.5V33.69H238.62V67.5ZM251.47 67.5V47.55Q251.47 44.59 249.63 42.95Q247.79 41.3 245.08 41.3Q243.22 41.3 241.77 42.05Q240.32 42.79 239.47 44.18Q238.62 45.57 238.62 47.55L235.03 45.8Q235.03 41.86 236.76 39.01Q238.48 36.16 241.42 34.57Q244.36 32.99 248.04 32.99Q251.59 32.99 254.45 34.56Q257.31 36.14 258.99 38.98Q260.67 41.83 260.67 45.78V67.5ZM273.52 67.5V47.55Q273.52 44.59 271.68 42.95Q269.84 41.3 267.13 41.3Q265.33 41.3 263.85 42.05Q262.37 42.79 261.52 44.18Q260.67 45.57 260.67 47.55L255.4 46.31Q255.67 42.21 257.56 39.25Q259.46 36.28 262.55 34.63Q265.64 32.99 269.42 32.99Q273.18 32.99 276.18 34.58Q279.19 36.17 280.95 39.1Q282.72 42.02 282.72 46.11V67.5Z M303.2 68.2Q298.58 68.2 294.89 65.89Q291.21 63.58 289.08 59.61Q286.96 55.63 286.96 50.65Q286.96 45.61 289.08 41.63Q291.21 37.64 294.89 35.32Q298.58 32.99 303.2 32.99Q306.84 32.99 309.71 34.48Q312.58 35.96 314.32 38.57Q316.06 41.18 316.18 44.5V56.69Q316.06 60.01 314.34 62.62Q312.63 65.22 309.73 66.71Q306.84 68.2 303.2 68.2ZM304.91 59.73Q308.76 59.73 311.12 57.17Q313.49 54.6 313.49 50.59Q313.49 47.9 312.42 45.84Q311.35 43.79 309.43 42.62Q307.5 41.46 304.93 41.46Q302.41 41.46 300.48 42.62Q298.56 43.79 297.45 45.85Q296.34 47.92 296.34 50.59Q296.34 53.27 297.44 55.34Q298.54 57.4 300.47 58.57Q302.41 59.73 304.91 59.73ZM313.01 67.5V58.42L314.48 50.17L313.01 42V33.69H322.13V67.5Z M351.91 67.5V48.13Q351.91 45.1 350.02 43.2Q348.13 41.3 345.19 41.3Q343.19 41.3 341.64 42.16Q340.1 43.02 339.24 44.57Q338.37 46.11 338.37 48.13L334.78 46.27Q334.78 42.33 336.51 39.35Q338.23 36.37 341.27 34.68Q344.31 32.99 348.16 32.99Q351.9 32.99 354.83 34.84Q357.76 36.7 359.44 39.69Q361.12 42.69 361.12 46.08V67.5ZM329.16 67.5V33.69H338.37V67.5Z M381.74 68.2Q377.05 68.2 373.34 65.89Q369.63 63.58 367.49 59.61Q365.36 55.63 365.36 50.64Q365.36 45.58 367.49 41.61Q369.63 37.64 373.32 35.32Q377.02 32.99 381.74 32.99Q385.39 32.99 388.31 34.48Q391.22 35.96 393.01 38.57Q394.81 41.18 394.93 44.5V56.51Q394.81 59.84 393.04 62.49Q391.27 65.14 388.33 66.67Q385.39 68.2 381.74 68.2ZM383.31 59.73Q385.9 59.73 387.81 58.57Q389.72 57.4 390.8 55.35Q391.89 53.29 391.89 50.59Q391.89 47.88 390.81 45.84Q389.73 43.8 387.81 42.63Q385.9 41.46 383.35 41.46Q380.81 41.46 378.89 42.63Q376.97 43.81 375.85 45.86Q374.74 47.92 374.74 50.59Q374.74 53.27 375.83 55.34Q376.93 57.4 378.88 58.56Q380.83 59.73 383.31 59.73ZM400.53 67.5H391.41V58.42L392.88 50.17L391.33 42V16.89H400.53Z M421.71 68.2Q417.09 68.2 413.4 65.89Q409.72 63.58 407.59 59.61Q405.47 55.63 405.47 50.65Q405.47 45.61 407.59 41.63Q409.72 37.64 413.4 35.32Q417.09 32.99 421.71 32.99Q425.35 32.99 428.22 34.48Q431.09 35.96 432.83 38.57Q434.57 41.18 434.69 44.5V56.69Q434.57 60.01 432.85 62.62Q431.14 65.22 428.24 66.71Q425.35 68.2 421.71 68.2ZM423.42 59.73Q427.27 59.73 429.63 57.17Q432 54.6 432 50.59Q432 47.9 430.93 45.84Q429.86 43.79 427.94 42.62Q426.01 41.46 423.44 41.46Q420.92 41.46 418.99 42.62Q417.07 43.79 415.96 45.85Q414.85 47.92 414.85 50.59Q414.85 53.27 415.95 55.34Q417.05 57.4 418.98 58.57Q420.92 59.73 423.42 59.73ZM431.52 67.5V58.42L432.99 50.17L431.52 42V33.69H440.64V67.5ZM419.76 29.37 416.26 25.04 426.31 14.12 432.22 21.25Z" fill="#111111"/></svg>
 </a>
 <nav aria-label="Principal" style="display: flex; align-items: center; gap: 26px; flex-wrap: wrap; font-size: 15px; font-weight: 500">
-<a href="#producto" style="text-decoration: none; color: #0B1F17">Producto</a>
-<a href="#calculadora" style="text-decoration: none; color: #0B1F17">Calculadora</a>
-<a href="#precios" style="text-decoration: none; color: #0B1F17">Precios</a>
-<a href="#preguntas" style="text-decoration: none; color: #0B1F17">Preguntas</a>
-<a class="vm-btn" href="#demo" style="text-decoration: none; background: #0B1F17; color: #FFFFFF; padding: 12px 20px; border-radius: 12px; font-weight: 600">Quiero una demo</a>
+<a href="#producto" style="text-decoration: none; color: #111111">Producto</a>
+<a href="#calculadora" style="text-decoration: none; color: #111111">Calculadora</a>
+<a href="#precios" style="text-decoration: none; color: #111111">Precios</a>
+<a href="#preguntas" style="text-decoration: none; color: #111111">Preguntas</a>
+<a class="vm-btn" href="#demo" style="text-decoration: none; background: #111111; color: #FFFFFF; padding: 12px 20px; border-radius: 12px; font-weight: 600">Quiero una demo</a>
 </nav>
 </div>
 </header>
@@ -90,12 +90,12 @@ details summary::-webkit-details-marker{display:none}
 <!-- CARRUSEL DE RUBROS -->
 <section id="inicio" style="padding: 56px 24px 0">
 <div style="max-width: 1240px; margin: 0 auto; text-align: center">
-<p style="margin: 0; display: inline-flex; align-items: center; gap: 10px; font-size: 14px; color: #4B5B53; font-weight: 500">
+<p style="margin: 0; display: inline-flex; align-items: center; gap: 10px; font-size: 14px; color: #52525B; font-weight: 500">
 <span class="vm-pulse" style="width: 8px; height: 8px; border-radius: 999px; background: #22C55E; display: inline-block"></span>
 Hecho en San Juan · 0% de comisión por pedido</p>
 <h1 style="margin: 20px auto 0; max-width: 1100px; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 700; font-size: clamp(40px, 5.6vw, 82px); line-height: 1.12; letter-spacing: -0.045em; color: #3A3F3C">
 <span style="display: block">La plataforma para que tu local</span>
-<span style="display: block; height: 1.12em; overflow: hidden; color: #0B1F17">
+<span style="display: block; height: 1.12em; overflow: hidden; color: #111111">
 <span class="vm-rot" style="display: block">
 <span style="display: block; height: 1.12em">venda más online.</span>
 <span style="display: block; height: 1.12em">cobre al instante.</span>
@@ -105,18 +105,18 @@ Hecho en San Juan · 0% de comisión por pedido</p>
 </span>
 </span>
 </h1>
-<form style="margin: 36px auto 0; max-width: 520px; display: flex; gap: 8px; padding: 8px; background: #FFFFFF; border-radius: 16px; box-shadow: 0 12px 40px rgba(11,31,23,0.12), 0 0 0 1px #E8ECE9; flex-wrap: wrap">
+<form style="margin: 36px auto 0; max-width: 520px; display: flex; gap: 8px; padding: 8px; background: #FFFFFF; border-radius: 16px; box-shadow: 0 12px 40px rgba(17,17,17,0.12), 0 0 0 1px #E9E9EB; flex-wrap: wrap">
 <label for="local" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">Nombre de tu local</label>
-<input id="local" placeholder="Escribí el nombre de tu local" style="flex: 1 1 220px; min-width: 0; height: 48px; border: 0; padding: 0 14px; font-size: 16px; font-family: Inter, sans-serif; color: #0B1F17; background: transparent; outline: none">
-<a class="vm-btn" href="#demo" style="height: 48px; display: inline-flex; align-items: center; gap: 8px; padding: 0 20px; border-radius: 12px; background: #0F5A2E; color: #FFFFFF; font-weight: 600; font-size: 15px; text-decoration: none">Ver mi tienda gratis
+<input id="local" placeholder="Escribí el nombre de tu local" style="flex: 1 1 220px; min-width: 0; height: 48px; border: 0; padding: 0 14px; font-size: 16px; font-family: Inter, sans-serif; color: #111111; background: transparent; outline: none">
+<a class="vm-btn" href="#demo" style="height: 48px; display: inline-flex; align-items: center; gap: 8px; padding: 0 20px; border-radius: 12px; background: #D61F69; color: #FFFFFF; font-weight: 600; font-size: 15px; text-decoration: none">Ver mi tienda gratis
 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
 </form>
-<p style="margin: 14px 0 0; font-size: 14px; color: #5C6B63">Te la armamos en 48 horas. 7 días de prueba sin pagar.</p>
+<p style="margin: 14px 0 0; font-size: 14px; color: #5F5F68">Te la armamos en 48 horas. 7 días de prueba sin pagar.</p>
 </div>
 
 <!-- Escenario: panel verde + teléfono -->
 <div style="position: relative; max-width: 1200px; height: 780px; margin: 56px auto 0">
-<div style="position: absolute; left: 0; right: 0; top: 130px; bottom: 0; border-radius: 32px; overflow: hidden; background: linear-gradient(115deg, #0B7A35 0%, #16A34A 38%, #4ADE80 72%, #BBF7D0 100%)">
+<div style="position: absolute; left: 0; right: 0; top: 130px; bottom: 0; border-radius: 32px; overflow: hidden; background: linear-gradient(115deg, #9E0F45 0%, #D61F69 38%, #F0609A 72%, #FBCFE0 100%)">
 <svg class="vm-drift" viewBox="0 0 1200 650" preserveAspectRatio="none" style="position: absolute; inset: -8%; width: 116%; height: 116%" fill="none" aria-hidden="true">
 <path class="vm-flow" d="M-50 620 C 250 420, 420 300, 1250 120" stroke="rgba(255,255,255,0.35)" stroke-width="1.5"></path>
 <path class="vm-flow" d="M-50 660 C 260 470, 460 360, 1250 190" stroke="rgba(255,255,255,0.28)" stroke-width="1.5"></path>
@@ -132,49 +132,49 @@ Hecho en San Juan · 0% de comisión por pedido</p>
 
 <!-- Teléfono -->
 <div style="position: absolute; left: 50%; top: 0; bottom: 0; transform: translateX(-50%); width: 340px; max-width: 86vw; z-index: 2">
-<div style="height: 100%; border-radius: 54px 54px 0 0; background: #121513; padding: 12px 12px 0; box-sizing: border-box; box-shadow: 0 40px 90px rgba(4,30,14,0.45), inset 0 0 0 2px #2A2F2C">
-<div style="position: relative; height: 100%; border-radius: 44px 44px 0 0; overflow: hidden; background: #F4F6F4">
-<div style="position: absolute; top: 12px; left: 50%; transform: translateX(-50%); width: 110px; height: 32px; border-radius: 999px; background: #121513; z-index: 3"></div>
+<div style="height: 100%; border-radius: 54px 54px 0 0; background: #111111; padding: 12px 12px 0; box-sizing: border-box; box-shadow: 0 40px 90px rgba(17,17,17,0.45), inset 0 0 0 2px #2A2A2E">
+<div style="position: relative; height: 100%; border-radius: 44px 44px 0 0; overflow: hidden; background: #F5F5F5">
+<div style="position: absolute; top: 12px; left: 50%; transform: translateX(-50%); width: 110px; height: 32px; border-radius: 999px; background: #111111; z-index: 3"></div>
 <div class="vm-phone" style="padding: 62px 14px 40px; display: flex; flex-direction: column; gap: 12px; font-size: 13px; text-align: left">
 <div style="background: #FFFFFF; border-radius: 20px; padding: 16px">
-<div style="display: flex; justify-content: space-between; align-items: center; gap: 8px"><p style="margin: 0; font-weight: 700; font-size: 16px">Tu informe de octubre</p><span style="font-size: 11px; font-weight: 600; color: #4B5B53; background: #EEF1EE; padding: 3px 8px; border-radius: 999px">Ejemplo</span></div>
-<p style="margin: 2px 0 0; font-size: 12px; color: #5C6B63">La Esquina Pizzas</p>
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 8px"><p style="margin: 0; font-weight: 700; font-size: 16px">Tu informe de octubre</p><span style="font-size: 11px; font-weight: 600; color: #52525B; background: #F1F1F2; padding: 3px 8px; border-radius: 999px">Ejemplo</span></div>
+<p style="margin: 2px 0 0; font-size: 12px; color: #5F5F68">La Esquina Pizzas</p>
 <div style="margin-top: 12px; display: flex; flex-direction: column">
-<div style="display: flex; justify-content: space-between; padding: 9px 0; border-bottom: 1px solid #EEF1EE"><span style="color: #4B5B53">Pedidos por apps</span><span style="font-weight: 700">214</span></div>
-<div style="display: flex; justify-content: space-between; padding: 9px 0; border-bottom: 1px solid #EEF1EE"><span style="color: #4B5B53">Vendiste por apps</span><span style="font-weight: 700">$6.000.000</span></div>
-<div style="display: flex; justify-content: space-between; padding: 9px 0; border-bottom: 1px solid #EEF1EE"><span style="color: #4B5B53">Comisión que pagaste</span><span style="font-weight: 700; color: #B91C1C">−$1.680.000</span></div>
-<div style="display: flex; justify-content: space-between; padding: 9px 0"><span style="color: #4B5B53">Pedidos por tu canal</span><span style="font-weight: 700; color: #B45309">0</span></div>
+<div style="display: flex; justify-content: space-between; padding: 9px 0; border-bottom: 1px solid #F1F1F2"><span style="color: #52525B">Pedidos por apps</span><span style="font-weight: 700">214</span></div>
+<div style="display: flex; justify-content: space-between; padding: 9px 0; border-bottom: 1px solid #F1F1F2"><span style="color: #52525B">Vendiste por apps</span><span style="font-weight: 700">$6.000.000</span></div>
+<div style="display: flex; justify-content: space-between; padding: 9px 0; border-bottom: 1px solid #F1F1F2"><span style="color: #52525B">Comisión que pagaste</span><span style="font-weight: 700; color: #B91C1C">−$1.680.000</span></div>
+<div style="display: flex; justify-content: space-between; padding: 9px 0"><span style="color: #52525B">Pedidos por tu canal</span><span style="font-weight: 700; color: #B45309">0</span></div>
 </div>
 </div>
 <div style="background: #FFFFFF; border-radius: 20px; padding: 16px">
 <p style="margin: 0; font-weight: 700; font-size: 16px; line-height: 1.3">Estás dejando $420.000 por mes. Arreglá esto:</p>
 <div style="margin-top: 12px; display: flex; flex-direction: column; gap: 8px">
-<div style="display: flex; gap: 10px; background: #F4F6F4; border-radius: 14px; padding: 11px">
+<div style="display: flex; gap: 10px; background: #F5F5F5; border-radius: 14px; padding: 11px">
 <span style="flex: none; width: 24px; height: 24px; border-radius: 8px; background: #FEE2E2; display: grid; place-items: center"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#B91C1C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 8v5M12 17h.01"></path></svg></span>
-<div><p style="margin: 0; font-weight: 600">No tenés tienda propia</p><p style="margin: 2px 0 0; font-size: 12px; color: #5C6B63; line-height: 1.4">Te encuentran solo en las apps, al lado de tu competencia.</p></div>
+<div><p style="margin: 0; font-weight: 600">No tenés tienda propia</p><p style="margin: 2px 0 0; font-size: 12px; color: #5F5F68; line-height: 1.4">Te encuentran solo en las apps, al lado de tu competencia.</p></div>
 </div>
-<div style="display: flex; gap: 10px; background: #F4F6F4; border-radius: 14px; padding: 11px">
+<div style="display: flex; gap: 10px; background: #F5F5F5; border-radius: 14px; padding: 11px">
 <span style="flex: none; width: 24px; height: 24px; border-radius: 8px; background: #FEE2E2; display: grid; place-items: center"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#B91C1C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 8v5M12 17h.01"></path></svg></span>
-<div><p style="margin: 0; font-weight: 600">Tus clientes no vuelven directo</p><p style="margin: 2px 0 0; font-size: 12px; color: #5C6B63; line-height: 1.4">No tenés sus datos para avisarles de una promo.</p></div>
+<div><p style="margin: 0; font-weight: 600">Tus clientes no vuelven directo</p><p style="margin: 2px 0 0; font-size: 12px; color: #5F5F68; line-height: 1.4">No tenés sus datos para avisarles de una promo.</p></div>
 </div>
-<div style="display: flex; gap: 10px; background: #F4F6F4; border-radius: 14px; padding: 11px">
+<div style="display: flex; gap: 10px; background: #F5F5F5; border-radius: 14px; padding: 11px">
 <span style="flex: none; width: 24px; height: 24px; border-radius: 8px; background: #FEE2E2; display: grid; place-items: center"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#B91C1C" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 8v5M12 17h.01"></path></svg></span>
-<div><p style="margin: 0; font-weight: 600">Google Maps sin botón de pedir</p><p style="margin: 2px 0 0; font-size: 12px; color: #5C6B63; line-height: 1.4">Quien te busca termina pidiendo por una app.</p></div>
+<div><p style="margin: 0; font-weight: 600">Google Maps sin botón de pedir</p><p style="margin: 2px 0 0; font-size: 12px; color: #5F5F68; line-height: 1.4">Quien te busca termina pidiendo por una app.</p></div>
 </div>
 </div>
-<p style="margin: 12px 0 0; font-size: 12px; color: #5C6B63; text-align: center">Mejorá tu informe para vender más.</p>
-<span style="margin-top: 10px; display: block; text-align: center; background: #0B1F17; color: #FFFFFF; border-radius: 12px; padding: 12px; font-weight: 600">Arreglalo con vos mandá</span>
+<p style="margin: 12px 0 0; font-size: 12px; color: #5F5F68; text-align: center">Mejorá tu informe para vender más.</p>
+<span style="margin-top: 10px; display: block; text-align: center; background: #111111; color: #FFFFFF; border-radius: 12px; padding: 12px; font-weight: 600">Arreglalo con vosmandá</span>
 </div>
-<div style="background: #0F3D2E; color: #FFFFFF; border-radius: 20px; padding: 18px">
-<p style="margin: 0; font-size: 12px; color: #CFE0D7">Con tu canal propio, en noviembre</p>
-<p style="margin: 6px 0 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 800; font-size: 30px; letter-spacing: -0.03em; color: #C8F169">+$420.000</p>
-<p style="margin: 2px 0 0; font-size: 12px; color: #CFE0D7">quedaron en tu caja en vez de en la app</p>
+<div style="background: #111111; color: #FFFFFF; border-radius: 20px; padding: 18px">
+<p style="margin: 0; font-size: 12px; color: #D4D4D8">Con tu canal propio, en noviembre</p>
+<p style="margin: 6px 0 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 800; font-size: 30px; letter-spacing: -0.03em; color: #EC2D74">+$420.000</p>
+<p style="margin: 2px 0 0; font-size: 12px; color: #D4D4D8">quedaron en tu caja en vez de en la app</p>
 <div style="margin-top: 14px; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 5px; align-items: end; height: 60px">
 <span style="height: 22%; background: rgba(255,255,255,0.25); border-radius: 6px"></span>
 <span style="height: 38%; background: rgba(255,255,255,0.3); border-radius: 6px"></span>
 <span style="height: 55%; background: rgba(255,255,255,0.4); border-radius: 6px"></span>
 <span style="height: 74%; background: rgba(255,255,255,0.55); border-radius: 6px"></span>
-<span style="height: 100%; background: #C8F169; border-radius: 6px"></span>
+<span style="height: 100%; background: #EC2D74; border-radius: 6px"></span>
 </div>
 </div>
 </div>
@@ -184,23 +184,23 @@ Hecho en San Juan · 0% de comisión por pedido</p>
 
 <!-- Notificaciones flotantes: izquierda -->
 <div class="vm-side" style="position: absolute; left: calc(50% - 520px); top: 300px; width: 260px; height: 120px; z-index: 3">
-<div class="vm-toast vm-d0" style="position: absolute; inset: 0 auto auto 0; width: 260px; background: #FFFFFF; border-radius: 18px; padding: 14px 16px; box-shadow: 0 20px 50px rgba(4,30,14,0.28); box-sizing: border-box; text-align: left">
-<p style="margin: 0; font-size: 12px; color: #5C6B63">Pedido nuevo · #129 · Sofía</p>
+<div class="vm-toast vm-d0" style="position: absolute; inset: 0 auto auto 0; width: 260px; background: #FFFFFF; border-radius: 18px; padding: 14px 16px; box-shadow: 0 20px 50px rgba(17,17,17,0.28); box-sizing: border-box; text-align: left">
+<p style="margin: 0; font-size: 12px; color: #5F5F68">Pedido nuevo · #129 · Sofía</p>
 <p style="margin: 4px 0 0; font-weight: 700; font-size: 18px">$22.400</p>
 <p style="margin: 8px 0 0; display: inline-flex; gap: 6px; align-items: center; font-size: 12px; font-weight: 600; color: #166534; background: #DCFCE7; padding: 4px 9px; border-radius: 999px"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg>Pagado con Mercado Pago</p>
 </div>
-<div class="vm-toast vm-d1" style="position: absolute; inset: 0 auto auto 0; width: 260px; background: #FFFFFF; border-radius: 18px; padding: 14px 16px; box-shadow: 0 20px 50px rgba(4,30,14,0.28); box-sizing: border-box; text-align: left">
-<p style="margin: 0; font-size: 12px; color: #5C6B63">Pedido nuevo · #130 · Martín</p>
+<div class="vm-toast vm-d1" style="position: absolute; inset: 0 auto auto 0; width: 260px; background: #FFFFFF; border-radius: 18px; padding: 14px 16px; box-shadow: 0 20px 50px rgba(17,17,17,0.28); box-sizing: border-box; text-align: left">
+<p style="margin: 0; font-size: 12px; color: #5F5F68">Pedido nuevo · #130 · Martín</p>
 <p style="margin: 4px 0 0; font-weight: 700; font-size: 18px">$14.000</p>
 <p style="margin: 8px 0 0; display: inline-flex; gap: 6px; align-items: center; font-size: 12px; font-weight: 600; color: #92400E; background: #FEF3C7; padding: 4px 9px; border-radius: 999px">Retira a las 21:15</p>
 </div>
-<div class="vm-toast vm-d2" style="position: absolute; inset: 0 auto auto 0; width: 260px; background: #FFFFFF; border-radius: 18px; padding: 14px 16px; box-shadow: 0 20px 50px rgba(4,30,14,0.28); box-sizing: border-box; text-align: left">
-<p style="margin: 0; font-size: 12px; color: #5C6B63">Pedido nuevo · #131 · Lucía</p>
+<div class="vm-toast vm-d2" style="position: absolute; inset: 0 auto auto 0; width: 260px; background: #FFFFFF; border-radius: 18px; padding: 14px 16px; box-shadow: 0 20px 50px rgba(17,17,17,0.28); box-sizing: border-box; text-align: left">
+<p style="margin: 0; font-size: 12px; color: #5F5F68">Pedido nuevo · #131 · Lucía</p>
 <p style="margin: 4px 0 0; font-weight: 700; font-size: 18px">$31.500</p>
 <p style="margin: 8px 0 0; display: inline-flex; gap: 6px; align-items: center; font-size: 12px; font-weight: 600; color: #1E40AF; background: #DBEAFE; padding: 4px 9px; border-radius: 999px">Envío · Barrio Santa Lucía</p>
 </div>
-<div class="vm-toast vm-d3" style="position: absolute; inset: 0 auto auto 0; width: 260px; background: #FFFFFF; border-radius: 18px; padding: 14px 16px; box-shadow: 0 20px 50px rgba(4,30,14,0.28); box-sizing: border-box; text-align: left">
-<p style="margin: 0; font-size: 12px; color: #5C6B63">Pedido nuevo · #132 · Joaquín</p>
+<div class="vm-toast vm-d3" style="position: absolute; inset: 0 auto auto 0; width: 260px; background: #FFFFFF; border-radius: 18px; padding: 14px 16px; box-shadow: 0 20px 50px rgba(17,17,17,0.28); box-sizing: border-box; text-align: left">
+<p style="margin: 0; font-size: 12px; color: #5F5F68">Pedido nuevo · #132 · Joaquín</p>
 <p style="margin: 4px 0 0; font-weight: 700; font-size: 18px">$9.500</p>
 <p style="margin: 8px 0 0; display: inline-flex; gap: 6px; align-items: center; font-size: 12px; font-weight: 600; color: #6B21A8; background: #F3E8FF; padding: 4px 9px; border-radius: 999px">Cupón PROMO10 aplicado</p>
 </div>
@@ -208,28 +208,28 @@ Hecho en San Juan · 0% de comisión por pedido</p>
 
 <!-- Notificaciones flotantes: derecha -->
 <div class="vm-side" style="position: absolute; right: calc(50% - 520px); top: 470px; width: 250px; height: 110px; z-index: 3">
-<div class="vm-toast vm-o1" style="position: absolute; inset: 0 auto auto 0; width: 250px; background: #FFFFFF; border-radius: 18px; padding: 14px 16px; box-shadow: 0 20px 50px rgba(4,30,14,0.28); box-sizing: border-box; display: flex; gap: 12px; align-items: center; text-align: left">
-<span style="flex: none; width: 40px; height: 40px; border-radius: 12px; background: #0F3D2E; display: grid; place-items: center"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C8F169" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12v9H4v-9M2 7h20v5H2zM12 21V7M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7zM12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"></path></svg></span>
-<div><p style="margin: 0; font-weight: 700; font-size: 14px">Martín ganó su 15% off</p><p style="margin: 2px 0 0; font-size: 12px; color: #5C6B63">5 pedidos por tu canal</p></div>
+<div class="vm-toast vm-o1" style="position: absolute; inset: 0 auto auto 0; width: 250px; background: #FFFFFF; border-radius: 18px; padding: 14px 16px; box-shadow: 0 20px 50px rgba(17,17,17,0.28); box-sizing: border-box; display: flex; gap: 12px; align-items: center; text-align: left">
+<span style="flex: none; width: 40px; height: 40px; border-radius: 12px; background: #111111; display: grid; place-items: center"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#EC2D74" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12v9H4v-9M2 7h20v5H2zM12 21V7M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7zM12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"></path></svg></span>
+<div><p style="margin: 0; font-weight: 700; font-size: 14px">Martín ganó su 15% off</p><p style="margin: 2px 0 0; font-size: 12px; color: #5F5F68">5 pedidos por tu canal</p></div>
 </div>
-<div class="vm-toast vm-o2" style="position: absolute; inset: 0 auto auto 0; width: 250px; background: #FFFFFF; border-radius: 18px; padding: 14px 16px; box-shadow: 0 20px 50px rgba(4,30,14,0.28); box-sizing: border-box; display: flex; gap: 12px; align-items: center; text-align: left">
+<div class="vm-toast vm-o2" style="position: absolute; inset: 0 auto auto 0; width: 250px; background: #FFFFFF; border-radius: 18px; padding: 14px 16px; box-shadow: 0 20px 50px rgba(17,17,17,0.28); box-sizing: border-box; display: flex; gap: 12px; align-items: center; text-align: left">
 <span style="flex: none; width: 40px; height: 40px; border-radius: 12px; background: #FCE7F3; display: grid; place-items: center"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#9D174D" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 21h16v-8H4zM12 13V8M12 8c-1.5 0-2-1.2-2-2s1-2.5 2-3.5c1 1 2 2.7 2 3.5s-.5 2-2 2zM4 17c2.7 0 2.7-2 5.3-2s2.7 2 5.4 2 2.6-2 5.3-2"></path></svg></span>
-<div><p style="margin: 0; font-weight: 700; font-size: 14px">Cumple de Lucía</p><p style="margin: 2px 0 0; font-size: 12px; color: #5C6B63">Mandale su saludo con un toque</p></div>
+<div><p style="margin: 0; font-weight: 700; font-size: 14px">Cumple de Lucía</p><p style="margin: 2px 0 0; font-size: 12px; color: #5F5F68">Mandale su saludo con un toque</p></div>
 </div>
-<div class="vm-toast vm-o3" style="position: absolute; inset: 0 auto auto 0; width: 250px; background: #FFFFFF; border-radius: 18px; padding: 14px 16px; box-shadow: 0 20px 50px rgba(4,30,14,0.28); box-sizing: border-box; display: flex; gap: 12px; align-items: center; text-align: left">
+<div class="vm-toast vm-o3" style="position: absolute; inset: 0 auto auto 0; width: 250px; background: #FFFFFF; border-radius: 18px; padding: 14px 16px; box-shadow: 0 20px 50px rgba(17,17,17,0.28); box-sizing: border-box; display: flex; gap: 12px; align-items: center; text-align: left">
 <span style="flex: none; width: 40px; height: 40px; border-radius: 12px; background: #DCFCE7; display: grid; place-items: center"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#166534" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 17l6-6 4 4 8-8M15 7h6v6"></path></svg></span>
-<div><p style="margin: 0; font-weight: 700; font-size: 14px">Ahorraste $86.000</p><p style="margin: 2px 0 0; font-size: 12px; color: #5C6B63">en comisiones esta semana</p></div>
+<div><p style="margin: 0; font-weight: 700; font-size: 14px">Ahorraste $86.000</p><p style="margin: 2px 0 0; font-size: 12px; color: #5F5F68">en comisiones esta semana</p></div>
 </div>
-<div class="vm-toast vm-o4" style="position: absolute; inset: 0 auto auto 0; width: 250px; background: #FFFFFF; border-radius: 18px; padding: 14px 16px; box-shadow: 0 20px 50px rgba(4,30,14,0.28); box-sizing: border-box; display: flex; gap: 12px; align-items: center; text-align: left">
+<div class="vm-toast vm-o4" style="position: absolute; inset: 0 auto auto 0; width: 250px; background: #FFFFFF; border-radius: 18px; padding: 14px 16px; box-shadow: 0 20px 50px rgba(17,17,17,0.28); box-sizing: border-box; display: flex; gap: 12px; align-items: center; text-align: left">
 <span style="flex: none; width: 40px; height: 40px; border-radius: 12px; background: #DBEAFE; display: grid; place-items: center"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1E40AF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"></path><path d="M14.5 10a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"></path></svg></span>
-<div><p style="margin: 0; font-weight: 700; font-size: 14px">Cliente nuevo</p><p style="margin: 2px 0 0; font-size: 12px; color: #5C6B63">Pidió desde Google Maps</p></div>
+<div><p style="margin: 0; font-weight: 700; font-size: 14px">Cliente nuevo</p><p style="margin: 2px 0 0; font-size: 12px; color: #5F5F68">Pidió desde Google Maps</p></div>
 </div>
 </div>
 </div>
 </section><section style="padding: 112px 0 40px">
 <div style="max-width: 1240px; margin: 0 auto; padding: 0 24px; display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; flex-wrap: wrap">
 <h2 class="vm-reveal" style="margin: 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 700; font-size: clamp(34px, 4.4vw, 56px); line-height: 1.05; letter-spacing: -0.04em">Lo que puede recuperar tu local</h2>
-<p style="margin: 0; max-width: 380px; font-size: 16px; line-height: 1.5; color: #4B5B53">Estimado si pasás 1 de cada 4 pedidos de las apps a tu canal, con una comisión del 28%.</p>
+<p style="margin: 0; max-width: 380px; font-size: 16px; line-height: 1.5; color: #52525B">Estimado si pasás 1 de cada 4 pedidos de las apps a tu canal, con una comisión del 28%.</p>
 </div>
 <div class="vm-marquee" style="margin-top: 44px; overflow: hidden; padding: 12px 0 28px">
 <div class="vm-track">
@@ -260,7 +260,7 @@ Hecho en San Juan · 0% de comisión por pedido</p>
 </div>
 </div>
 
-<div class="vm-card" style="flex: none; width: 300px; height: 440px; margin-right: 20px; border-radius: 28px; background: #0F3D2E; color: #FFFFFF; padding: 26px; box-sizing: border-box; display: flex; flex-direction: column; position: relative; overflow: hidden">
+<div class="vm-card" style="flex: none; width: 300px; height: 440px; margin-right: 20px; border-radius: 28px; background: #111111; color: #FFFFFF; padding: 26px; box-sizing: border-box; display: flex; flex-direction: column; position: relative; overflow: hidden">
 <div style="display: flex; justify-content: space-between; align-items: center; gap: 8px; position: relative; z-index: 1">
 <span style="font-weight: 700; font-size: 15px; background: rgba(255,255,255,0.14); padding: 7px 13px; border-radius: 999px">Sushi</span>
 <span style="font-size: 12px; font-weight: 600">Estimado</span>
@@ -273,9 +273,9 @@ Hecho en San Juan · 0% de comisión por pedido</p>
 </div>
 </div>
 
-<div class="vm-card" style="flex: none; width: 300px; height: 440px; margin-right: 20px; border-radius: 28px; background: #F2C14E; color: #0B1F17; padding: 26px; box-sizing: border-box; display: flex; flex-direction: column; position: relative; overflow: hidden">
+<div class="vm-card" style="flex: none; width: 300px; height: 440px; margin-right: 20px; border-radius: 28px; background: #F2C14E; color: #111111; padding: 26px; box-sizing: border-box; display: flex; flex-direction: column; position: relative; overflow: hidden">
 <div style="display: flex; justify-content: space-between; align-items: center; gap: 8px; position: relative; z-index: 1">
-<span style="font-weight: 700; font-size: 15px; background: rgba(11,31,23,0.08); padding: 7px 13px; border-radius: 999px">Empanadas</span>
+<span style="font-weight: 700; font-size: 15px; background: rgba(17,17,17,0.08); padding: 7px 13px; border-radius: 999px">Empanadas</span>
 <span style="font-size: 12px; font-weight: 600">Estimado</span>
 </div>
 <svg viewBox="0 0 24 24" width="230" height="230" fill="none" stroke="currentColor" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="position: absolute; right: -36px; top: 70px; opacity: 0.22"><path d="M2 16a10 9 0 0 1 20 0Z M4.5 16l1.2 2.2 M8.3 16l.8 2.6 M12 16v2.8 M15.7 16l-.8 2.6 M19.5 16l-1.2 2.2"></path></svg>
@@ -286,9 +286,9 @@ Hecho en San Juan · 0% de comisión por pedido</p>
 </div>
 </div>
 
-<div class="vm-card" style="flex: none; width: 300px; height: 440px; margin-right: 20px; border-radius: 28px; background: #F7C6DA; color: #0B1F17; padding: 26px; box-sizing: border-box; display: flex; flex-direction: column; position: relative; overflow: hidden">
+<div class="vm-card" style="flex: none; width: 300px; height: 440px; margin-right: 20px; border-radius: 28px; background: #F7C6DA; color: #111111; padding: 26px; box-sizing: border-box; display: flex; flex-direction: column; position: relative; overflow: hidden">
 <div style="display: flex; justify-content: space-between; align-items: center; gap: 8px; position: relative; z-index: 1">
-<span style="font-weight: 700; font-size: 15px; background: rgba(11,31,23,0.08); padding: 7px 13px; border-radius: 999px">Heladería</span>
+<span style="font-weight: 700; font-size: 15px; background: rgba(17,17,17,0.08); padding: 7px 13px; border-radius: 999px">Heladería</span>
 <span style="font-size: 12px; font-weight: 600">Estimado</span>
 </div>
 <svg viewBox="0 0 24 24" width="230" height="230" fill="none" stroke="currentColor" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="position: absolute; right: -36px; top: 70px; opacity: 0.22"><path d="M7 8a5 5 0 1 1 10 0a5 5 0 1 1-10 0 M7.5 10.5L12 22l4.5-11.5"></path></svg>
@@ -351,7 +351,7 @@ Hecho en San Juan · 0% de comisión por pedido</p>
 </div>
 </div>
 
-<div class="vm-card" style="flex: none; width: 300px; height: 440px; margin-right: 20px; border-radius: 28px; background: #0F3D2E; color: #FFFFFF; padding: 26px; box-sizing: border-box; display: flex; flex-direction: column; position: relative; overflow: hidden">
+<div class="vm-card" style="flex: none; width: 300px; height: 440px; margin-right: 20px; border-radius: 28px; background: #111111; color: #FFFFFF; padding: 26px; box-sizing: border-box; display: flex; flex-direction: column; position: relative; overflow: hidden">
 <div style="display: flex; justify-content: space-between; align-items: center; gap: 8px; position: relative; z-index: 1">
 <span style="font-weight: 700; font-size: 15px; background: rgba(255,255,255,0.14); padding: 7px 13px; border-radius: 999px">Sushi</span>
 <span style="font-size: 12px; font-weight: 600">Estimado</span>
@@ -364,9 +364,9 @@ Hecho en San Juan · 0% de comisión por pedido</p>
 </div>
 </div>
 
-<div class="vm-card" style="flex: none; width: 300px; height: 440px; margin-right: 20px; border-radius: 28px; background: #F2C14E; color: #0B1F17; padding: 26px; box-sizing: border-box; display: flex; flex-direction: column; position: relative; overflow: hidden">
+<div class="vm-card" style="flex: none; width: 300px; height: 440px; margin-right: 20px; border-radius: 28px; background: #F2C14E; color: #111111; padding: 26px; box-sizing: border-box; display: flex; flex-direction: column; position: relative; overflow: hidden">
 <div style="display: flex; justify-content: space-between; align-items: center; gap: 8px; position: relative; z-index: 1">
-<span style="font-weight: 700; font-size: 15px; background: rgba(11,31,23,0.08); padding: 7px 13px; border-radius: 999px">Empanadas</span>
+<span style="font-weight: 700; font-size: 15px; background: rgba(17,17,17,0.08); padding: 7px 13px; border-radius: 999px">Empanadas</span>
 <span style="font-size: 12px; font-weight: 600">Estimado</span>
 </div>
 <svg viewBox="0 0 24 24" width="230" height="230" fill="none" stroke="currentColor" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="position: absolute; right: -36px; top: 70px; opacity: 0.22"><path d="M2 16a10 9 0 0 1 20 0Z M4.5 16l1.2 2.2 M8.3 16l.8 2.6 M12 16v2.8 M15.7 16l-.8 2.6 M19.5 16l-1.2 2.2"></path></svg>
@@ -377,9 +377,9 @@ Hecho en San Juan · 0% de comisión por pedido</p>
 </div>
 </div>
 
-<div class="vm-card" style="flex: none; width: 300px; height: 440px; margin-right: 20px; border-radius: 28px; background: #F7C6DA; color: #0B1F17; padding: 26px; box-sizing: border-box; display: flex; flex-direction: column; position: relative; overflow: hidden">
+<div class="vm-card" style="flex: none; width: 300px; height: 440px; margin-right: 20px; border-radius: 28px; background: #F7C6DA; color: #111111; padding: 26px; box-sizing: border-box; display: flex; flex-direction: column; position: relative; overflow: hidden">
 <div style="display: flex; justify-content: space-between; align-items: center; gap: 8px; position: relative; z-index: 1">
-<span style="font-weight: 700; font-size: 15px; background: rgba(11,31,23,0.08); padding: 7px 13px; border-radius: 999px">Heladería</span>
+<span style="font-weight: 700; font-size: 15px; background: rgba(17,17,17,0.08); padding: 7px 13px; border-radius: 999px">Heladería</span>
 <span style="font-size: 12px; font-weight: 600">Estimado</span>
 </div>
 <svg viewBox="0 0 24 24" width="230" height="230" fill="none" stroke="currentColor" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="position: absolute; right: -36px; top: 70px; opacity: 0.22"><path d="M7 8a5 5 0 1 1 10 0a5 5 0 1 1-10 0 M7.5 10.5L12 22l4.5-11.5"></path></svg>
@@ -423,51 +423,51 @@ Hecho en San Juan · 0% de comisión por pedido</p>
 <!-- PESTAÑAS -->
 <section id="producto" style="padding: 80px 24px 112px">
 <div style="max-width: 1200px; margin: 0 auto">
-<h2 class="vm-reveal" style="margin: 0; max-width: 900px; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 700; font-size: clamp(34px, 4.4vw, 56px); line-height: 1.06; letter-spacing: -0.04em"><span style="color: #7A847F">Con vos mandá tenés más pedidos directos,</span> más clientes que vuelven y cero comisión.</h2>
+<h2 class="vm-reveal" style="margin: 0; max-width: 900px; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 700; font-size: clamp(34px, 4.4vw, 56px); line-height: 1.06; letter-spacing: -0.04em"><span style="color: #7C7C85">Con vosmandá tenés más pedidos directos,</span> más clientes que vuelven y cero comisión.</h2>
 <div role="tablist" aria-label="Funciones" style="margin-top: 48px; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 8px 24px">
 
-<button class="vm-tab" role="tab" aria-selected="true" data-tab="0"  style="appearance: none; background: none; border: 0; padding: 0 0 14px; text-align: left; cursor: pointer; font-family: Inter, sans-serif; font-size: 17px; font-weight: 600; color: #0B1F17; position: relative; min-height: 44px">
+<button class="vm-tab" role="tab" aria-selected="true" data-tab="0"  style="appearance: none; background: none; border: 0; padding: 0 0 14px; text-align: left; cursor: pointer; font-family: Inter, sans-serif; font-size: 17px; font-weight: 600; color: #111111; position: relative; min-height: 44px">
 Más pedidos directos
-<span style="position: absolute; left: 0; right: 0; bottom: 0; height: 3px; border-radius: 3px; background: #E3E8E4; overflow: hidden; display: block">
+<span style="position: absolute; left: 0; right: 0; bottom: 0; height: 3px; border-radius: 3px; background: #E7E7E9; overflow: hidden; display: block">
 
 </span>
 </button>
 
-<button class="vm-tab" role="tab" aria-selected="false" data-tab="1"  style="appearance: none; background: none; border: 0; padding: 0 0 14px; text-align: left; cursor: pointer; font-family: Inter, sans-serif; font-size: 17px; font-weight: 600; color: #7A847F; position: relative; min-height: 44px">
+<button class="vm-tab" role="tab" aria-selected="false" data-tab="1"  style="appearance: none; background: none; border: 0; padding: 0 0 14px; text-align: left; cursor: pointer; font-family: Inter, sans-serif; font-size: 17px; font-weight: 600; color: #7C7C85; position: relative; min-height: 44px">
 Cobro al instante
-<span style="position: absolute; left: 0; right: 0; bottom: 0; height: 3px; border-radius: 3px; background: #E3E8E4; overflow: hidden; display: block">
+<span style="position: absolute; left: 0; right: 0; bottom: 0; height: 3px; border-radius: 3px; background: #E7E7E9; overflow: hidden; display: block">
 
 </span>
 </button>
 
-<button class="vm-tab" role="tab" aria-selected="false" data-tab="2"  style="appearance: none; background: none; border: 0; padding: 0 0 14px; text-align: left; cursor: pointer; font-family: Inter, sans-serif; font-size: 17px; font-weight: 600; color: #7A847F; position: relative; min-height: 44px">
+<button class="vm-tab" role="tab" aria-selected="false" data-tab="2"  style="appearance: none; background: none; border: 0; padding: 0 0 14px; text-align: left; cursor: pointer; font-family: Inter, sans-serif; font-size: 17px; font-weight: 600; color: #7C7C85; position: relative; min-height: 44px">
 Clientes que vuelven
-<span style="position: absolute; left: 0; right: 0; bottom: 0; height: 3px; border-radius: 3px; background: #E3E8E4; overflow: hidden; display: block">
+<span style="position: absolute; left: 0; right: 0; bottom: 0; height: 3px; border-radius: 3px; background: #E7E7E9; overflow: hidden; display: block">
 
 </span>
 </button>
 
-<button class="vm-tab" role="tab" aria-selected="false" data-tab="3"  style="appearance: none; background: none; border: 0; padding: 0 0 14px; text-align: left; cursor: pointer; font-family: Inter, sans-serif; font-size: 17px; font-weight: 600; color: #7A847F; position: relative; min-height: 44px">
+<button class="vm-tab" role="tab" aria-selected="false" data-tab="3"  style="appearance: none; background: none; border: 0; padding: 0 0 14px; text-align: left; cursor: pointer; font-family: Inter, sans-serif; font-size: 17px; font-weight: 600; color: #7C7C85; position: relative; min-height: 44px">
 Más visitas en Google
-<span style="position: absolute; left: 0; right: 0; bottom: 0; height: 3px; border-radius: 3px; background: #E3E8E4; overflow: hidden; display: block">
+<span style="position: absolute; left: 0; right: 0; bottom: 0; height: 3px; border-radius: 3px; background: #E7E7E9; overflow: hidden; display: block">
 
 </span>
 </button>
 
 </div>
 
-<div style="margin-top: 28px; border-radius: 32px; background: #F6EFE7; overflow: hidden; min-height: 560px">
+<div style="margin-top: 28px; border-radius: 32px; background: #F6F4F5; overflow: hidden; min-height: 560px">
 <div data-panel="0">
 <div class="vm-in" style="display: flex; flex-wrap: wrap; gap: 48px; align-items: center; padding: 56px; box-sizing: border-box; min-height: 560px">
 <div style="flex: 1 1 360px; min-width: 0">
-<p style="margin: 0; font-size: 14px; font-weight: 600; color: #6B5B4B">Tienda propia</p>
+<p style="margin: 0; font-size: 14px; font-weight: 600; color: #5F5A62">Tienda propia</p>
 <h3 style="margin: 12px 0 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 700; font-size: clamp(30px, 3.2vw, 42px); line-height: 1.08; letter-spacing: -0.035em">Tu carta, tu marca y tu link. Sin la competencia al lado.</h3>
-<p style="margin: 18px 0 0; font-size: 18px; line-height: 1.55; color: #5A4E42; max-width: 460px">Tus clientes piden desde Instagram, un QR o Google. Eligen, pagan y el pedido llega a tu panel.</p>
-<a href="#demo" style="margin-top: 26px; display: inline-flex; gap: 8px; align-items: center; font-weight: 600; color: #0B1F17">Quiero mi tienda<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+<p style="margin: 18px 0 0; font-size: 18px; line-height: 1.55; color: #55525A; max-width: 460px">Tus clientes piden desde Instagram, un QR o Google. Eligen, pagan y el pedido llega a tu panel.</p>
+<a href="#demo" style="margin-top: 26px; display: inline-flex; gap: 8px; align-items: center; font-weight: 600; color: #111111">Quiero mi tienda<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
 </div>
 <div style="flex: 1 1 420px; min-width: 0; display: flex; justify-content: center">
-<div style="width: 290px; height: 520px; border-radius: 44px; background: #121513; padding: 10px; box-sizing: border-box; box-shadow: 0 30px 70px rgba(60,40,20,0.3)">
-<div style="height: 100%; border-radius: 35px; overflow: hidden; background: #F7F7F5; font-size: 12px">
+<div style="width: 290px; height: 520px; border-radius: 44px; background: #111111; padding: 10px; box-sizing: border-box; box-shadow: 0 30px 70px rgba(17,17,17,0.3)">
+<div style="height: 100%; border-radius: 35px; overflow: hidden; background: #F7F7F7; font-size: 12px">
 <div style="background: #C2410C; color: #FFFFFF; padding: 40px 16px 16px">
 <div style="display: flex; align-items: center; gap: 10px">
 <span style="width: 42px; height: 42px; border-radius: 12px; background: rgba(255,255,255,0.2); display: grid; place-items: center; font-weight: 800; font-size: 18px">L</span>
@@ -480,11 +480,11 @@ Más visitas en Google
 </div>
 <div style="padding: 14px 12px; display: flex; flex-direction: column; gap: 8px">
 <p style="margin: 0 0 2px; font-weight: 700; font-size: 13px">Pizzas</p>
-<div style="background: #FFFFFF; border-radius: 14px; padding: 12px; display: flex; justify-content: space-between; align-items: center; border: 1px solid #ECEBE6"><div><p style="margin: 0; font-weight: 600">Muzzarella</p><p style="margin: 3px 0 0; font-weight: 700">$9.500</p></div><span style="background: #C2410C; color: #FFFFFF; border-radius: 999px; padding: 6px 11px; font-weight: 600; font-size: 11px">Agregar</span></div>
-<div style="background: #FFFFFF; border-radius: 14px; padding: 12px; display: flex; justify-content: space-between; align-items: center; border: 1px solid #ECEBE6"><div><p style="margin: 0; font-weight: 600">Napolitana</p><p style="margin: 3px 0 0; font-weight: 700">$11.200</p></div><span style="background: #F1F0EC; border-radius: 999px; padding: 6px 11px; font-weight: 700; font-size: 11px">− 2 +</span></div>
-<div style="background: #FFFFFF; border-radius: 14px; padding: 12px; display: flex; justify-content: space-between; align-items: center; border: 1px solid #ECEBE6"><div><p style="margin: 0; font-weight: 600">Fugazzeta</p><p style="margin: 3px 0 0; font-weight: 700">$10.800</p></div><span style="background: #C2410C; color: #FFFFFF; border-radius: 999px; padding: 6px 11px; font-weight: 600; font-size: 11px">Agregar</span></div>
+<div style="background: #FFFFFF; border-radius: 14px; padding: 12px; display: flex; justify-content: space-between; align-items: center; border: 1px solid #EEEDED"><div><p style="margin: 0; font-weight: 600">Muzzarella</p><p style="margin: 3px 0 0; font-weight: 700">$9.500</p></div><span style="background: #C2410C; color: #FFFFFF; border-radius: 999px; padding: 6px 11px; font-weight: 600; font-size: 11px">Agregar</span></div>
+<div style="background: #FFFFFF; border-radius: 14px; padding: 12px; display: flex; justify-content: space-between; align-items: center; border: 1px solid #EEEDED"><div><p style="margin: 0; font-weight: 600">Napolitana</p><p style="margin: 3px 0 0; font-weight: 700">$11.200</p></div><span style="background: #F3F2F2; border-radius: 999px; padding: 6px 11px; font-weight: 700; font-size: 11px">− 2 +</span></div>
+<div style="background: #FFFFFF; border-radius: 14px; padding: 12px; display: flex; justify-content: space-between; align-items: center; border: 1px solid #EEEDED"><div><p style="margin: 0; font-weight: 600">Fugazzeta</p><p style="margin: 3px 0 0; font-weight: 700">$10.800</p></div><span style="background: #C2410C; color: #FFFFFF; border-radius: 999px; padding: 6px 11px; font-weight: 600; font-size: 11px">Agregar</span></div>
 <p style="margin: 6px 0 2px; font-weight: 700; font-size: 13px">Empanadas</p>
-<div style="background: #FFFFFF; border-radius: 14px; padding: 12px; display: flex; justify-content: space-between; align-items: center; border: 1px solid #ECEBE6"><div><p style="margin: 0; font-weight: 600">Docena de carne</p><p style="margin: 3px 0 0; font-weight: 700">$14.000</p></div><span style="background: #C2410C; color: #FFFFFF; border-radius: 999px; padding: 6px 11px; font-weight: 600; font-size: 11px">Agregar</span></div>
+<div style="background: #FFFFFF; border-radius: 14px; padding: 12px; display: flex; justify-content: space-between; align-items: center; border: 1px solid #EEEDED"><div><p style="margin: 0; font-weight: 600">Docena de carne</p><p style="margin: 3px 0 0; font-weight: 700">$14.000</p></div><span style="background: #C2410C; color: #FFFFFF; border-radius: 999px; padding: 6px 11px; font-weight: 600; font-size: 11px">Agregar</span></div>
 <div style="margin-top: 6px; background: #C2410C; color: #FFFFFF; border-radius: 14px; padding: 13px 14px; display: flex; justify-content: space-between; font-weight: 700"><span>Ver pedido · 2</span><span>$22.400</span></div>
 </div>
 </div>
@@ -496,20 +496,20 @@ Más visitas en Google
 <div data-panel="1" hidden>
 <div class="vm-in" style="display: flex; flex-wrap: wrap; gap: 48px; align-items: center; padding: 56px; box-sizing: border-box; min-height: 560px">
 <div style="flex: 1 1 360px; min-width: 0">
-<p style="margin: 0; font-size: 14px; font-weight: 600; color: #6B5B4B">Cobro al instante</p>
+<p style="margin: 0; font-size: 14px; font-weight: 600; color: #5F5A62">Cobro al instante</p>
 <h3 style="margin: 12px 0 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 700; font-size: clamp(30px, 3.2vw, 42px); line-height: 1.08; letter-spacing: -0.035em">La plata entra directo a tu cuenta. No esperás liquidaciones.</h3>
-<p style="margin: 18px 0 0; font-size: 18px; line-height: 1.55; color: #5A4E42; max-width: 460px">Mercado Pago, transferencia o efectivo. Ves al toque qué está pagado y qué falta cobrar.</p>
+<p style="margin: 18px 0 0; font-size: 18px; line-height: 1.55; color: #55525A; max-width: 460px">Mercado Pago, transferencia o efectivo. Ves al toque qué está pagado y qué falta cobrar.</p>
 </div>
 <div style="flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 14px; max-width: 460px; margin: 0 auto">
-<div style="background: #FFFFFF; border-radius: 24px; padding: 28px; box-shadow: 0 24px 60px rgba(60,40,20,0.14); text-align: center">
+<div style="background: #FFFFFF; border-radius: 24px; padding: 28px; box-shadow: 0 24px 60px rgba(17,17,17,0.14); text-align: center">
 <span style="width: 64px; height: 64px; border-radius: 999px; background: #DCFCE7; display: inline-grid; place-items: center"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#166534" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
 <p style="margin: 14px 0 0; font-weight: 700; font-size: 20px">Pago aprobado</p>
 <p style="margin: 4px 0 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 800; font-size: 40px; letter-spacing: -0.03em">$22.400</p>
-<p style="margin: 6px 0 0; font-size: 14px; color: #5C6B63">Pedido #128 · Mercado Pago · acreditado en tu cuenta</p>
+<p style="margin: 6px 0 0; font-size: 14px; color: #5F5F68">Pedido #128 · Mercado Pago · acreditado en tu cuenta</p>
 </div>
 <div style="background: #FFFFFF; border-radius: 20px; padding: 6px 20px; font-size: 14px">
-<div style="display: flex; justify-content: space-between; align-items: center; padding: 13px 0; border-bottom: 1px solid #EEF1EE"><span style="font-weight: 600">#127 · Martín</span><span style="font-size: 12px; font-weight: 600; background: #DCFCE7; color: #166534; padding: 3px 9px; border-radius: 999px">Transferencia</span></div>
-<div style="display: flex; justify-content: space-between; align-items: center; padding: 13px 0; border-bottom: 1px solid #EEF1EE"><span style="font-weight: 600">#126 · Valentina</span><span style="font-size: 12px; font-weight: 600; background: #DCFCE7; color: #166534; padding: 3px 9px; border-radius: 999px">Mercado Pago</span></div>
+<div style="display: flex; justify-content: space-between; align-items: center; padding: 13px 0; border-bottom: 1px solid #F1F1F2"><span style="font-weight: 600">#127 · Martín</span><span style="font-size: 12px; font-weight: 600; background: #DCFCE7; color: #166534; padding: 3px 9px; border-radius: 999px">Transferencia</span></div>
+<div style="display: flex; justify-content: space-between; align-items: center; padding: 13px 0; border-bottom: 1px solid #F1F1F2"><span style="font-weight: 600">#126 · Valentina</span><span style="font-size: 12px; font-weight: 600; background: #DCFCE7; color: #166534; padding: 3px 9px; border-radius: 999px">Mercado Pago</span></div>
 <div style="display: flex; justify-content: space-between; align-items: center; padding: 13px 0"><span style="font-weight: 600">#125 · Tomás</span><span style="font-size: 12px; font-weight: 600; background: #FEF3C7; color: #92400E; padding: 3px 9px; border-radius: 999px">Efectivo al entregar</span></div>
 </div>
 </div>
@@ -519,22 +519,22 @@ Más visitas en Google
 <div data-panel="2" hidden>
 <div class="vm-in" style="display: flex; flex-wrap: wrap; gap: 48px; align-items: center; padding: 56px; box-sizing: border-box; min-height: 560px">
 <div style="flex: 1 1 360px; min-width: 0">
-<p style="margin: 0; font-size: 14px; font-weight: 600; color: #6B5B4B">Clientes que vuelven</p>
+<p style="margin: 0; font-size: 14px; font-weight: 600; color: #5F5A62">Clientes que vuelven</p>
 <h3 style="margin: 12px 0 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 700; font-size: clamp(30px, 3.2vw, 42px); line-height: 1.08; letter-spacing: -0.035em">Premios y cupones automáticos. Cumpleaños con un toque.</h3>
-<p style="margin: 18px 0 0; font-size: 18px; line-height: 1.55; color: #5A4E42; max-width: 460px">Con las apps, el cliente es de la app. Acá queda guardado en tu panel para volver a venderle.</p>
+<p style="margin: 18px 0 0; font-size: 18px; line-height: 1.55; color: #55525A; max-width: 460px">Con las apps, el cliente es de la app. Acá queda guardado en tu panel para volver a venderle.</p>
 </div>
 <div style="flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 14px; max-width: 460px; margin: 0 auto">
-<div style="background: #0F3D2E; color: #FFFFFF; border-radius: 24px; padding: 24px">
+<div style="background: #111111; color: #FFFFFF; border-radius: 24px; padding: 24px">
 <p style="margin: 0; font-weight: 700; font-size: 18px">Premio cliente fiel</p>
-<p style="margin: 4px 0 0; font-size: 14px; color: #CFE0D7">Te faltan 2 pedidos para tu 15% off</p>
+<p style="margin: 4px 0 0; font-size: 14px; color: #D4D4D8">Te faltan 2 pedidos para tu 15% off</p>
 <div style="margin-top: 16px; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 6px">
-<span style="height: 12px; border-radius: 999px; background: #C8F169"></span><span style="height: 12px; border-radius: 999px; background: #C8F169"></span><span style="height: 12px; border-radius: 999px; background: #C8F169"></span><span style="height: 12px; border-radius: 999px; background: rgba(255,255,255,0.2)"></span><span style="height: 12px; border-radius: 999px; background: rgba(255,255,255,0.2)"></span>
+<span style="height: 12px; border-radius: 999px; background: #EC2D74"></span><span style="height: 12px; border-radius: 999px; background: #EC2D74"></span><span style="height: 12px; border-radius: 999px; background: #EC2D74"></span><span style="height: 12px; border-radius: 999px; background: rgba(255,255,255,0.2)"></span><span style="height: 12px; border-radius: 999px; background: rgba(255,255,255,0.2)"></span>
 </div>
 </div>
 <div style="background: #FFFFFF; border-radius: 20px; padding: 6px 20px; font-size: 14px">
-<div style="display: flex; justify-content: space-between; padding: 13px 0; border-bottom: 1px solid #EEF1EE"><span style="font-weight: 600">Sofía R.</span><span style="color: #4B5B53">9 pedidos · frecuente</span></div>
-<div style="display: flex; justify-content: space-between; padding: 13px 0; border-bottom: 1px solid #EEF1EE"><span style="font-weight: 600">Martín G.</span><span style="color: #4B5B53">cumple el viernes</span></div>
-<div style="display: flex; justify-content: space-between; padding: 13px 0"><span style="font-weight: 600">Lucía P.</span><span style="color: #4B5B53">hace 34 días que no pide</span></div>
+<div style="display: flex; justify-content: space-between; padding: 13px 0; border-bottom: 1px solid #F1F1F2"><span style="font-weight: 600">Sofía R.</span><span style="color: #52525B">9 pedidos · frecuente</span></div>
+<div style="display: flex; justify-content: space-between; padding: 13px 0; border-bottom: 1px solid #F1F1F2"><span style="font-weight: 600">Martín G.</span><span style="color: #52525B">cumple el viernes</span></div>
+<div style="display: flex; justify-content: space-between; padding: 13px 0"><span style="font-weight: 600">Lucía P.</span><span style="color: #52525B">hace 34 días que no pide</span></div>
 </div>
 </div>
 </div>
@@ -543,31 +543,31 @@ Más visitas en Google
 <div data-panel="3" hidden>
 <div class="vm-in" style="display: flex; flex-wrap: wrap; gap: 48px; align-items: center; padding: 56px; box-sizing: border-box; min-height: 560px">
 <div style="flex: 1 1 360px; min-width: 0">
-<p style="margin: 0; font-size: 14px; font-weight: 600; color: #6B5B4B">Más visitas en Google</p>
+<p style="margin: 0; font-size: 14px; font-weight: 600; color: #5F5A62">Más visitas en Google</p>
 <h3 style="margin: 12px 0 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 700; font-size: clamp(30px, 3.2vw, 42px); line-height: 1.08; letter-spacing: -0.035em">Quien te busca en Google te pide a vos, no a una app.</h3>
-<p style="margin: 18px 0 0; font-size: 18px; line-height: 1.55; color: #5A4E42; max-width: 460px">Ponemos el botón de pedir en tu perfil de Google Maps y lo dejamos completo con fotos y horarios.</p>
+<p style="margin: 18px 0 0; font-size: 18px; line-height: 1.55; color: #55525A; max-width: 460px">Ponemos el botón de pedir en tu perfil de Google Maps y lo dejamos completo con fotos y horarios.</p>
 </div>
 <div style="flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 12px; max-width: 460px; margin: 0 auto">
-<div style="background: #FFFFFF; border-radius: 16px; padding: 14px 18px; display: flex; gap: 10px; align-items: center; box-shadow: 0 14px 40px rgba(60,40,20,0.12); font-size: 15px">
-<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#5C6B63" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 18a7 7 0 1 0 0-14 7 7 0 0 0 0 14zM21 21l-5-5"></path></svg>
-<span>pizzería cerca de mí</span><span class="vm-blink" style="width: 2px; height: 18px; background: #0B1F17"></span>
+<div style="background: #FFFFFF; border-radius: 16px; padding: 14px 18px; display: flex; gap: 10px; align-items: center; box-shadow: 0 14px 40px rgba(17,17,17,0.12); font-size: 15px">
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#5F5F68" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 18a7 7 0 1 0 0-14 7 7 0 0 0 0 14zM21 21l-5-5"></path></svg>
+<span>pizzería cerca de mí</span><span class="vm-blink" style="width: 2px; height: 18px; background: #111111"></span>
 </div>
-<div style="background: #FFFFFF; border-radius: 20px; padding: 20px; border: 2px solid #0F5A2E">
+<div style="background: #FFFFFF; border-radius: 20px; padding: 20px; border: 2px solid #D61F69">
 <div style="display: flex; justify-content: space-between; gap: 10px"><p style="margin: 0; font-weight: 700; font-size: 17px">La Esquina Pizzas</p><span style="font-size: 12px; font-weight: 600; color: #166534; background: #DCFCE7; padding: 3px 9px; border-radius: 999px; height: fit-content">1.º</span></div>
-<p style="margin: 4px 0 0; font-size: 13px; color: #5C6B63">Pizzería · Rivadavia · Abierto hasta las 00:00</p>
+<p style="margin: 4px 0 0; font-size: 13px; color: #5F5F68">Pizzería · Rivadavia · Abierto hasta las 00:00</p>
 <div style="margin-top: 14px; display: flex; gap: 8px; flex-wrap: wrap">
-<span style="background: #0F5A2E; color: #FFFFFF; padding: 9px 16px; border-radius: 999px; font-weight: 600; font-size: 13px">Pedir online</span>
-<span style="border: 1px solid #D4DAD6; padding: 9px 16px; border-radius: 999px; font-weight: 600; font-size: 13px">Cómo llegar</span>
-<span style="border: 1px solid #D4DAD6; padding: 9px 16px; border-radius: 999px; font-weight: 600; font-size: 13px">Llamar</span>
+<span style="background: #D61F69; color: #FFFFFF; padding: 9px 16px; border-radius: 999px; font-weight: 600; font-size: 13px">Pedir online</span>
+<span style="border: 1px solid #D7D7DA; padding: 9px 16px; border-radius: 999px; font-weight: 600; font-size: 13px">Cómo llegar</span>
+<span style="border: 1px solid #D7D7DA; padding: 9px 16px; border-radius: 999px; font-weight: 600; font-size: 13px">Llamar</span>
 </div>
 </div>
 <div style="background: rgba(255,255,255,0.6); border-radius: 20px; padding: 18px 20px; display: flex; flex-direction: column; gap: 8px" aria-hidden="true">
-<span style="height: 12px; width: 50%; background: #E7DED3; border-radius: 6px; display: block"></span>
-<span style="height: 10px; width: 75%; background: #EFE8DF; border-radius: 6px; display: block"></span>
+<span style="height: 12px; width: 50%; background: #E9E5E7; border-radius: 6px; display: block"></span>
+<span style="height: 10px; width: 75%; background: #F1EEF0; border-radius: 6px; display: block"></span>
 </div>
 <div style="background: rgba(255,255,255,0.6); border-radius: 20px; padding: 18px 20px; display: flex; flex-direction: column; gap: 8px" aria-hidden="true">
-<span style="height: 12px; width: 42%; background: #E7DED3; border-radius: 6px; display: block"></span>
-<span style="height: 10px; width: 68%; background: #EFE8DF; border-radius: 6px; display: block"></span>
+<span style="height: 12px; width: 42%; background: #E9E5E7; border-radius: 6px; display: block"></span>
+<span style="height: 10px; width: 68%; background: #F1EEF0; border-radius: 6px; display: block"></span>
 </div>
 </div>
 </div>
@@ -577,7 +577,7 @@ Más visitas en Google
 </section>
 
 <!-- SECCIÓN VERDE CON TARJETAS EN MOVIMIENTO -->
-<section style="position: relative; overflow: hidden; background: linear-gradient(180deg, #0A6B2F 0%, #0E7F37 55%, #18A047 100%); color: #FFFFFF; padding: 112px 0">
+<section style="position: relative; overflow: hidden; background: linear-gradient(180deg, #9E0F45 0%, #C4175C 55%, #D61F69 100%); color: #FFFFFF; padding: 112px 0">
 <svg class="vm-drift" viewBox="0 0 1440 900" preserveAspectRatio="none" style="position: absolute; inset: -6%; width: 112%; height: 112%" fill="none" aria-hidden="true">
 <path class="vm-flow" d="M-100 900 C 300 600, 700 520, 1540 80" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"></path>
 <path class="vm-flow" d="M-100 960 C 340 680, 760 600, 1540 180" stroke="rgba(255,255,255,0.22)" stroke-width="1.5"></path>
@@ -597,100 +597,100 @@ Más visitas en Google
 <div class="vm-marquee" style="overflow: hidden">
 <div class="vm-track vm-slow">
 
-<div style="flex: none; width: 300px; margin-right: 18px; background: #E8F8EC; color: #0B1F17; border-radius: 20px; padding: 20px; box-sizing: border-box">
-<span style="width: 34px; height: 34px; border-radius: 10px; background: #0F5A2E; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C8F169" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
+<div style="flex: none; width: 300px; margin-right: 18px; background: #FDE8F0; color: #111111; border-radius: 20px; padding: 20px; box-sizing: border-box">
+<span style="width: 34px; height: 34px; border-radius: 10px; background: #D61F69; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
 <p style="margin: 14px 0 0; font-weight: 700; font-size: 17px; line-height: 1.3">0% de comisión por pedido</p>
-<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3D4D45">Pagás un precio fijo. Lo que vendés es tuyo.</p>
+<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3F3F46">Pagás un precio fijo. Lo que vendés es tuyo.</p>
 </div>
 
-<div style="flex: none; width: 300px; margin-right: 18px; background: #E8F8EC; color: #0B1F17; border-radius: 20px; padding: 20px; box-sizing: border-box">
-<span style="width: 34px; height: 34px; border-radius: 10px; background: #0F5A2E; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C8F169" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
+<div style="flex: none; width: 300px; margin-right: 18px; background: #FDE8F0; color: #111111; border-radius: 20px; padding: 20px; box-sizing: border-box">
+<span style="width: 34px; height: 34px; border-radius: 10px; background: #D61F69; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
 <p style="margin: 14px 0 0; font-weight: 700; font-size: 17px; line-height: 1.3">La plata entra directo</p>
-<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3D4D45">Mercado Pago o transferencia, a tu cuenta, al instante.</p>
+<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3F3F46">Mercado Pago o transferencia, a tu cuenta, al instante.</p>
 </div>
 
-<div style="flex: none; width: 300px; margin-right: 18px; background: #E8F8EC; color: #0B1F17; border-radius: 20px; padding: 20px; box-sizing: border-box">
-<span style="width: 34px; height: 34px; border-radius: 10px; background: #0F5A2E; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C8F169" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
+<div style="flex: none; width: 300px; margin-right: 18px; background: #FDE8F0; color: #111111; border-radius: 20px; padding: 20px; box-sizing: border-box">
+<span style="width: 34px; height: 34px; border-radius: 10px; background: #D61F69; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
 <p style="margin: 14px 0 0; font-weight: 700; font-size: 17px; line-height: 1.3">Tus clientes quedan en tu panel</p>
-<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3D4D45">Nombre, teléfono y qué piden. No en la app.</p>
+<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3F3F46">Nombre, teléfono y qué piden. No en la app.</p>
 </div>
 
-<div style="flex: none; width: 300px; margin-right: 18px; background: #E8F8EC; color: #0B1F17; border-radius: 20px; padding: 20px; box-sizing: border-box">
-<span style="width: 34px; height: 34px; border-radius: 10px; background: #0F5A2E; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C8F169" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
+<div style="flex: none; width: 300px; margin-right: 18px; background: #FDE8F0; color: #111111; border-radius: 20px; padding: 20px; box-sizing: border-box">
+<span style="width: 34px; height: 34px; border-radius: 10px; background: #D61F69; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
 <p style="margin: 14px 0 0; font-weight: 700; font-size: 17px; line-height: 1.3">Sin la competencia al lado</p>
-<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3D4D45">Tu carta sola, con tu marca y tus colores.</p>
+<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3F3F46">Tu carta sola, con tu marca y tus colores.</p>
 </div>
 
-<div style="flex: none; width: 300px; margin-right: 18px; background: #E8F8EC; color: #0B1F17; border-radius: 20px; padding: 20px; box-sizing: border-box">
-<span style="width: 34px; height: 34px; border-radius: 10px; background: #0F5A2E; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C8F169" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
+<div style="flex: none; width: 300px; margin-right: 18px; background: #FDE8F0; color: #111111; border-radius: 20px; padding: 20px; box-sizing: border-box">
+<span style="width: 34px; height: 34px; border-radius: 10px; background: #D61F69; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
 <p style="margin: 14px 0 0; font-weight: 700; font-size: 17px; line-height: 1.3">Promos que se aplican solas</p>
-<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3D4D45">Cupones y premios cada tantos pedidos.</p>
+<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3F3F46">Cupones y premios cada tantos pedidos.</p>
 </div>
 
-<div style="flex: none; width: 300px; margin-right: 18px; background: #E8F8EC; color: #0B1F17; border-radius: 20px; padding: 20px; box-sizing: border-box">
-<span style="width: 34px; height: 34px; border-radius: 10px; background: #0F5A2E; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C8F169" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
+<div style="flex: none; width: 300px; margin-right: 18px; background: #FDE8F0; color: #111111; border-radius: 20px; padding: 20px; box-sizing: border-box">
+<span style="width: 34px; height: 34px; border-radius: 10px; background: #D61F69; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
 <p style="margin: 14px 0 0; font-weight: 700; font-size: 17px; line-height: 1.3">Listo en 48 horas</p>
-<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3D4D45">Cargamos tu carta y te dejamos vendiendo.</p>
+<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3F3F46">Cargamos tu carta y te dejamos vendiendo.</p>
 </div>
 
-<div style="flex: none; width: 300px; margin-right: 18px; background: #E8F8EC; color: #0B1F17; border-radius: 20px; padding: 20px; box-sizing: border-box">
-<span style="width: 34px; height: 34px; border-radius: 10px; background: #0F5A2E; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C8F169" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
+<div style="flex: none; width: 300px; margin-right: 18px; background: #FDE8F0; color: #111111; border-radius: 20px; padding: 20px; box-sizing: border-box">
+<span style="width: 34px; height: 34px; border-radius: 10px; background: #D61F69; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
 <p style="margin: 14px 0 0; font-weight: 700; font-size: 17px; line-height: 1.3">Folletos con QR</p>
-<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3D4D45">Para cada bolsa que sale de tu local.</p>
+<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3F3F46">Para cada bolsa que sale de tu local.</p>
 </div>
 
-<div style="flex: none; width: 300px; margin-right: 18px; background: #E8F8EC; color: #0B1F17; border-radius: 20px; padding: 20px; box-sizing: border-box">
-<span style="width: 34px; height: 34px; border-radius: 10px; background: #0F5A2E; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C8F169" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
+<div style="flex: none; width: 300px; margin-right: 18px; background: #FDE8F0; color: #111111; border-radius: 20px; padding: 20px; box-sizing: border-box">
+<span style="width: 34px; height: 34px; border-radius: 10px; background: #D61F69; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
 <p style="margin: 14px 0 0; font-weight: 700; font-size: 17px; line-height: 1.3">Atención en persona</p>
-<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3D4D45">Somos de San Juan. Vamos a tu local.</p>
+<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3F3F46">Somos de San Juan. Vamos a tu local.</p>
 </div>
 
-<div style="flex: none; width: 300px; margin-right: 18px; background: #E8F8EC; color: #0B1F17; border-radius: 20px; padding: 20px; box-sizing: border-box">
-<span style="width: 34px; height: 34px; border-radius: 10px; background: #0F5A2E; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C8F169" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
+<div style="flex: none; width: 300px; margin-right: 18px; background: #FDE8F0; color: #111111; border-radius: 20px; padding: 20px; box-sizing: border-box">
+<span style="width: 34px; height: 34px; border-radius: 10px; background: #D61F69; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
 <p style="margin: 14px 0 0; font-weight: 700; font-size: 17px; line-height: 1.3">0% de comisión por pedido</p>
-<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3D4D45">Pagás un precio fijo. Lo que vendés es tuyo.</p>
+<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3F3F46">Pagás un precio fijo. Lo que vendés es tuyo.</p>
 </div>
 
-<div style="flex: none; width: 300px; margin-right: 18px; background: #E8F8EC; color: #0B1F17; border-radius: 20px; padding: 20px; box-sizing: border-box">
-<span style="width: 34px; height: 34px; border-radius: 10px; background: #0F5A2E; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C8F169" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
+<div style="flex: none; width: 300px; margin-right: 18px; background: #FDE8F0; color: #111111; border-radius: 20px; padding: 20px; box-sizing: border-box">
+<span style="width: 34px; height: 34px; border-radius: 10px; background: #D61F69; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
 <p style="margin: 14px 0 0; font-weight: 700; font-size: 17px; line-height: 1.3">La plata entra directo</p>
-<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3D4D45">Mercado Pago o transferencia, a tu cuenta, al instante.</p>
+<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3F3F46">Mercado Pago o transferencia, a tu cuenta, al instante.</p>
 </div>
 
-<div style="flex: none; width: 300px; margin-right: 18px; background: #E8F8EC; color: #0B1F17; border-radius: 20px; padding: 20px; box-sizing: border-box">
-<span style="width: 34px; height: 34px; border-radius: 10px; background: #0F5A2E; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C8F169" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
+<div style="flex: none; width: 300px; margin-right: 18px; background: #FDE8F0; color: #111111; border-radius: 20px; padding: 20px; box-sizing: border-box">
+<span style="width: 34px; height: 34px; border-radius: 10px; background: #D61F69; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
 <p style="margin: 14px 0 0; font-weight: 700; font-size: 17px; line-height: 1.3">Tus clientes quedan en tu panel</p>
-<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3D4D45">Nombre, teléfono y qué piden. No en la app.</p>
+<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3F3F46">Nombre, teléfono y qué piden. No en la app.</p>
 </div>
 
-<div style="flex: none; width: 300px; margin-right: 18px; background: #E8F8EC; color: #0B1F17; border-radius: 20px; padding: 20px; box-sizing: border-box">
-<span style="width: 34px; height: 34px; border-radius: 10px; background: #0F5A2E; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C8F169" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
+<div style="flex: none; width: 300px; margin-right: 18px; background: #FDE8F0; color: #111111; border-radius: 20px; padding: 20px; box-sizing: border-box">
+<span style="width: 34px; height: 34px; border-radius: 10px; background: #D61F69; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
 <p style="margin: 14px 0 0; font-weight: 700; font-size: 17px; line-height: 1.3">Sin la competencia al lado</p>
-<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3D4D45">Tu carta sola, con tu marca y tus colores.</p>
+<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3F3F46">Tu carta sola, con tu marca y tus colores.</p>
 </div>
 
-<div style="flex: none; width: 300px; margin-right: 18px; background: #E8F8EC; color: #0B1F17; border-radius: 20px; padding: 20px; box-sizing: border-box">
-<span style="width: 34px; height: 34px; border-radius: 10px; background: #0F5A2E; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C8F169" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
+<div style="flex: none; width: 300px; margin-right: 18px; background: #FDE8F0; color: #111111; border-radius: 20px; padding: 20px; box-sizing: border-box">
+<span style="width: 34px; height: 34px; border-radius: 10px; background: #D61F69; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
 <p style="margin: 14px 0 0; font-weight: 700; font-size: 17px; line-height: 1.3">Promos que se aplican solas</p>
-<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3D4D45">Cupones y premios cada tantos pedidos.</p>
+<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3F3F46">Cupones y premios cada tantos pedidos.</p>
 </div>
 
-<div style="flex: none; width: 300px; margin-right: 18px; background: #E8F8EC; color: #0B1F17; border-radius: 20px; padding: 20px; box-sizing: border-box">
-<span style="width: 34px; height: 34px; border-radius: 10px; background: #0F5A2E; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C8F169" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
+<div style="flex: none; width: 300px; margin-right: 18px; background: #FDE8F0; color: #111111; border-radius: 20px; padding: 20px; box-sizing: border-box">
+<span style="width: 34px; height: 34px; border-radius: 10px; background: #D61F69; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
 <p style="margin: 14px 0 0; font-weight: 700; font-size: 17px; line-height: 1.3">Listo en 48 horas</p>
-<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3D4D45">Cargamos tu carta y te dejamos vendiendo.</p>
+<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3F3F46">Cargamos tu carta y te dejamos vendiendo.</p>
 </div>
 
-<div style="flex: none; width: 300px; margin-right: 18px; background: #E8F8EC; color: #0B1F17; border-radius: 20px; padding: 20px; box-sizing: border-box">
-<span style="width: 34px; height: 34px; border-radius: 10px; background: #0F5A2E; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C8F169" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
+<div style="flex: none; width: 300px; margin-right: 18px; background: #FDE8F0; color: #111111; border-radius: 20px; padding: 20px; box-sizing: border-box">
+<span style="width: 34px; height: 34px; border-radius: 10px; background: #D61F69; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
 <p style="margin: 14px 0 0; font-weight: 700; font-size: 17px; line-height: 1.3">Folletos con QR</p>
-<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3D4D45">Para cada bolsa que sale de tu local.</p>
+<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3F3F46">Para cada bolsa que sale de tu local.</p>
 </div>
 
-<div style="flex: none; width: 300px; margin-right: 18px; background: #E8F8EC; color: #0B1F17; border-radius: 20px; padding: 20px; box-sizing: border-box">
-<span style="width: 34px; height: 34px; border-radius: 10px; background: #0F5A2E; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C8F169" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
+<div style="flex: none; width: 300px; margin-right: 18px; background: #FDE8F0; color: #111111; border-radius: 20px; padding: 20px; box-sizing: border-box">
+<span style="width: 34px; height: 34px; border-radius: 10px; background: #D61F69; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
 <p style="margin: 14px 0 0; font-weight: 700; font-size: 17px; line-height: 1.3">Atención en persona</p>
-<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3D4D45">Somos de San Juan. Vamos a tu local.</p>
+<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3F3F46">Somos de San Juan. Vamos a tu local.</p>
 </div>
 
 </div>
@@ -698,100 +698,100 @@ Más visitas en Google
 <div class="vm-marquee" style="overflow: hidden">
 <div class="vm-track vm-slow vm-rev">
 
-<div style="flex: none; width: 300px; margin-right: 18px; background: #E8F8EC; color: #0B1F17; border-radius: 20px; padding: 20px; box-sizing: border-box">
-<span style="width: 34px; height: 34px; border-radius: 10px; background: #0F5A2E; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C8F169" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
+<div style="flex: none; width: 300px; margin-right: 18px; background: #FDE8F0; color: #111111; border-radius: 20px; padding: 20px; box-sizing: border-box">
+<span style="width: 34px; height: 34px; border-radius: 10px; background: #D61F69; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
 <p style="margin: 14px 0 0; font-weight: 700; font-size: 17px; line-height: 1.3">Sin descargar nada</p>
-<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3D4D45">Tus clientes piden desde un link en cualquier celular.</p>
+<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3F3F46">Tus clientes piden desde un link en cualquier celular.</p>
 </div>
 
-<div style="flex: none; width: 300px; margin-right: 18px; background: #E8F8EC; color: #0B1F17; border-radius: 20px; padding: 20px; box-sizing: border-box">
-<span style="width: 34px; height: 34px; border-radius: 10px; background: #0F5A2E; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C8F169" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
+<div style="flex: none; width: 300px; margin-right: 18px; background: #FDE8F0; color: #111111; border-radius: 20px; padding: 20px; box-sizing: border-box">
+<span style="width: 34px; height: 34px; border-radius: 10px; background: #D61F69; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
 <p style="margin: 14px 0 0; font-weight: 700; font-size: 17px; line-height: 1.3">Seguís en las apps</p>
-<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3D4D45">Y vas pasando a tu canal a quienes ya te conocen.</p>
+<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3F3F46">Y vas pasando a tu canal a quienes ya te conocen.</p>
 </div>
 
-<div style="flex: none; width: 300px; margin-right: 18px; background: #E8F8EC; color: #0B1F17; border-radius: 20px; padding: 20px; box-sizing: border-box">
-<span style="width: 34px; height: 34px; border-radius: 10px; background: #0F5A2E; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C8F169" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
+<div style="flex: none; width: 300px; margin-right: 18px; background: #FDE8F0; color: #111111; border-radius: 20px; padding: 20px; box-sizing: border-box">
+<span style="width: 34px; height: 34px; border-radius: 10px; background: #D61F69; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
 <p style="margin: 14px 0 0; font-weight: 700; font-size: 17px; line-height: 1.3">Saludo de cumpleaños</p>
-<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3D4D45">Un saludo con descuento que mandás con un toque.</p>
+<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3F3F46">Un saludo con descuento que mandás con un toque.</p>
 </div>
 
-<div style="flex: none; width: 300px; margin-right: 18px; background: #E8F8EC; color: #0B1F17; border-radius: 20px; padding: 20px; box-sizing: border-box">
-<span style="width: 34px; height: 34px; border-radius: 10px; background: #0F5A2E; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C8F169" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
+<div style="flex: none; width: 300px; margin-right: 18px; background: #FDE8F0; color: #111111; border-radius: 20px; padding: 20px; box-sizing: border-box">
+<span style="width: 34px; height: 34px; border-radius: 10px; background: #D61F69; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
 <p style="margin: 14px 0 0; font-weight: 700; font-size: 17px; line-height: 1.3">Reporte mensual</p>
-<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3D4D45">Cuánto vendiste por tu canal y cuánto ahorraste.</p>
+<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3F3F46">Cuánto vendiste por tu canal y cuánto ahorraste.</p>
 </div>
 
-<div style="flex: none; width: 300px; margin-right: 18px; background: #E8F8EC; color: #0B1F17; border-radius: 20px; padding: 20px; box-sizing: border-box">
-<span style="width: 34px; height: 34px; border-radius: 10px; background: #0F5A2E; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C8F169" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
+<div style="flex: none; width: 300px; margin-right: 18px; background: #FDE8F0; color: #111111; border-radius: 20px; padding: 20px; box-sizing: border-box">
+<span style="width: 34px; height: 34px; border-radius: 10px; background: #D61F69; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
 <p style="margin: 14px 0 0; font-weight: 700; font-size: 17px; line-height: 1.3">Sin contrato</p>
-<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3D4D45">7 días de prueba y después mes a mes.</p>
+<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3F3F46">7 días de prueba y después mes a mes.</p>
 </div>
 
-<div style="flex: none; width: 300px; margin-right: 18px; background: #E8F8EC; color: #0B1F17; border-radius: 20px; padding: 20px; box-sizing: border-box">
-<span style="width: 34px; height: 34px; border-radius: 10px; background: #0F5A2E; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C8F169" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
+<div style="flex: none; width: 300px; margin-right: 18px; background: #FDE8F0; color: #111111; border-radius: 20px; padding: 20px; box-sizing: border-box">
+<span style="width: 34px; height: 34px; border-radius: 10px; background: #D61F69; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
 <p style="margin: 14px 0 0; font-weight: 700; font-size: 17px; line-height: 1.3">Retiro o envío</p>
-<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3D4D45">Vos elegís cómo entregás y tus zonas de envío.</p>
+<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3F3F46">Vos elegís cómo entregás y tus zonas de envío.</p>
 </div>
 
-<div style="flex: none; width: 300px; margin-right: 18px; background: #E8F8EC; color: #0B1F17; border-radius: 20px; padding: 20px; box-sizing: border-box">
-<span style="width: 34px; height: 34px; border-radius: 10px; background: #0F5A2E; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C8F169" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
+<div style="flex: none; width: 300px; margin-right: 18px; background: #FDE8F0; color: #111111; border-radius: 20px; padding: 20px; box-sizing: border-box">
+<span style="width: 34px; height: 34px; border-radius: 10px; background: #D61F69; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
 <p style="margin: 14px 0 0; font-weight: 700; font-size: 17px; line-height: 1.3">El pedido suena</p>
-<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3D4D45">Cada pedido nuevo avisa en tu panel.</p>
+<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3F3F46">Cada pedido nuevo avisa en tu panel.</p>
 </div>
 
-<div style="flex: none; width: 300px; margin-right: 18px; background: #E8F8EC; color: #0B1F17; border-radius: 20px; padding: 20px; box-sizing: border-box">
-<span style="width: 34px; height: 34px; border-radius: 10px; background: #0F5A2E; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C8F169" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
+<div style="flex: none; width: 300px; margin-right: 18px; background: #FDE8F0; color: #111111; border-radius: 20px; padding: 20px; box-sizing: border-box">
+<span style="width: 34px; height: 34px; border-radius: 10px; background: #D61F69; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
 <p style="margin: 14px 0 0; font-weight: 700; font-size: 17px; line-height: 1.3">Botón de pedir en Google</p>
-<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3D4D45">Quien te busca en Maps te pide a vos.</p>
+<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3F3F46">Quien te busca en Maps te pide a vos.</p>
 </div>
 
-<div style="flex: none; width: 300px; margin-right: 18px; background: #E8F8EC; color: #0B1F17; border-radius: 20px; padding: 20px; box-sizing: border-box">
-<span style="width: 34px; height: 34px; border-radius: 10px; background: #0F5A2E; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C8F169" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
+<div style="flex: none; width: 300px; margin-right: 18px; background: #FDE8F0; color: #111111; border-radius: 20px; padding: 20px; box-sizing: border-box">
+<span style="width: 34px; height: 34px; border-radius: 10px; background: #D61F69; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
 <p style="margin: 14px 0 0; font-weight: 700; font-size: 17px; line-height: 1.3">Sin descargar nada</p>
-<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3D4D45">Tus clientes piden desde un link en cualquier celular.</p>
+<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3F3F46">Tus clientes piden desde un link en cualquier celular.</p>
 </div>
 
-<div style="flex: none; width: 300px; margin-right: 18px; background: #E8F8EC; color: #0B1F17; border-radius: 20px; padding: 20px; box-sizing: border-box">
-<span style="width: 34px; height: 34px; border-radius: 10px; background: #0F5A2E; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C8F169" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
+<div style="flex: none; width: 300px; margin-right: 18px; background: #FDE8F0; color: #111111; border-radius: 20px; padding: 20px; box-sizing: border-box">
+<span style="width: 34px; height: 34px; border-radius: 10px; background: #D61F69; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
 <p style="margin: 14px 0 0; font-weight: 700; font-size: 17px; line-height: 1.3">Seguís en las apps</p>
-<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3D4D45">Y vas pasando a tu canal a quienes ya te conocen.</p>
+<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3F3F46">Y vas pasando a tu canal a quienes ya te conocen.</p>
 </div>
 
-<div style="flex: none; width: 300px; margin-right: 18px; background: #E8F8EC; color: #0B1F17; border-radius: 20px; padding: 20px; box-sizing: border-box">
-<span style="width: 34px; height: 34px; border-radius: 10px; background: #0F5A2E; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C8F169" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
+<div style="flex: none; width: 300px; margin-right: 18px; background: #FDE8F0; color: #111111; border-radius: 20px; padding: 20px; box-sizing: border-box">
+<span style="width: 34px; height: 34px; border-radius: 10px; background: #D61F69; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
 <p style="margin: 14px 0 0; font-weight: 700; font-size: 17px; line-height: 1.3">Saludo de cumpleaños</p>
-<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3D4D45">Un saludo con descuento que mandás con un toque.</p>
+<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3F3F46">Un saludo con descuento que mandás con un toque.</p>
 </div>
 
-<div style="flex: none; width: 300px; margin-right: 18px; background: #E8F8EC; color: #0B1F17; border-radius: 20px; padding: 20px; box-sizing: border-box">
-<span style="width: 34px; height: 34px; border-radius: 10px; background: #0F5A2E; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C8F169" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
+<div style="flex: none; width: 300px; margin-right: 18px; background: #FDE8F0; color: #111111; border-radius: 20px; padding: 20px; box-sizing: border-box">
+<span style="width: 34px; height: 34px; border-radius: 10px; background: #D61F69; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
 <p style="margin: 14px 0 0; font-weight: 700; font-size: 17px; line-height: 1.3">Reporte mensual</p>
-<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3D4D45">Cuánto vendiste por tu canal y cuánto ahorraste.</p>
+<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3F3F46">Cuánto vendiste por tu canal y cuánto ahorraste.</p>
 </div>
 
-<div style="flex: none; width: 300px; margin-right: 18px; background: #E8F8EC; color: #0B1F17; border-radius: 20px; padding: 20px; box-sizing: border-box">
-<span style="width: 34px; height: 34px; border-radius: 10px; background: #0F5A2E; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C8F169" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
+<div style="flex: none; width: 300px; margin-right: 18px; background: #FDE8F0; color: #111111; border-radius: 20px; padding: 20px; box-sizing: border-box">
+<span style="width: 34px; height: 34px; border-radius: 10px; background: #D61F69; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
 <p style="margin: 14px 0 0; font-weight: 700; font-size: 17px; line-height: 1.3">Sin contrato</p>
-<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3D4D45">7 días de prueba y después mes a mes.</p>
+<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3F3F46">7 días de prueba y después mes a mes.</p>
 </div>
 
-<div style="flex: none; width: 300px; margin-right: 18px; background: #E8F8EC; color: #0B1F17; border-radius: 20px; padding: 20px; box-sizing: border-box">
-<span style="width: 34px; height: 34px; border-radius: 10px; background: #0F5A2E; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C8F169" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
+<div style="flex: none; width: 300px; margin-right: 18px; background: #FDE8F0; color: #111111; border-radius: 20px; padding: 20px; box-sizing: border-box">
+<span style="width: 34px; height: 34px; border-radius: 10px; background: #D61F69; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
 <p style="margin: 14px 0 0; font-weight: 700; font-size: 17px; line-height: 1.3">Retiro o envío</p>
-<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3D4D45">Vos elegís cómo entregás y tus zonas de envío.</p>
+<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3F3F46">Vos elegís cómo entregás y tus zonas de envío.</p>
 </div>
 
-<div style="flex: none; width: 300px; margin-right: 18px; background: #E8F8EC; color: #0B1F17; border-radius: 20px; padding: 20px; box-sizing: border-box">
-<span style="width: 34px; height: 34px; border-radius: 10px; background: #0F5A2E; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C8F169" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
+<div style="flex: none; width: 300px; margin-right: 18px; background: #FDE8F0; color: #111111; border-radius: 20px; padding: 20px; box-sizing: border-box">
+<span style="width: 34px; height: 34px; border-radius: 10px; background: #D61F69; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
 <p style="margin: 14px 0 0; font-weight: 700; font-size: 17px; line-height: 1.3">El pedido suena</p>
-<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3D4D45">Cada pedido nuevo avisa en tu panel.</p>
+<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3F3F46">Cada pedido nuevo avisa en tu panel.</p>
 </div>
 
-<div style="flex: none; width: 300px; margin-right: 18px; background: #E8F8EC; color: #0B1F17; border-radius: 20px; padding: 20px; box-sizing: border-box">
-<span style="width: 34px; height: 34px; border-radius: 10px; background: #0F5A2E; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C8F169" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
+<div style="flex: none; width: 300px; margin-right: 18px; background: #FDE8F0; color: #111111; border-radius: 20px; padding: 20px; box-sizing: border-box">
+<span style="width: 34px; height: 34px; border-radius: 10px; background: #D61F69; display: grid; place-items: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"></path></svg></span>
 <p style="margin: 14px 0 0; font-weight: 700; font-size: 17px; line-height: 1.3">Botón de pedir en Google</p>
-<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3D4D45">Quien te busca en Maps te pide a vos.</p>
+<p style="margin: 6px 0 0; font-size: 14px; line-height: 1.45; color: #3F3F46">Quien te busca en Maps te pide a vos.</p>
 </div>
 
 </div>
@@ -800,23 +800,23 @@ Más visitas en Google
 </section>
 
 <!-- CALCULADORA -->
-<section id="calculadora" style="background: #F6EFE7">
+<section id="calculadora" style="background: #F6F4F5">
 <div style="max-width: 1200px; margin: 0 auto; padding: 112px 24px; display: flex; gap: 56px; flex-wrap: wrap; align-items: center">
 <div style="flex: 1 1 420px; min-width: 0">
 <h2 class="vm-reveal" style="margin: 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 700; font-size: clamp(34px, 4.4vw, 56px); line-height: 1.05; letter-spacing: -0.04em">¿Cuánto le dejás a las apps de delivery?</h2>
-<p style="margin: 20px 0 0; font-size: 18px; line-height: 1.55; color: #5A4E42; max-width: 480px">Las apps se quedan con hasta un 30% de cada pedido. Mové los números con lo que vende tu local y mirá lo que podés recuperar.</p>
+<p style="margin: 20px 0 0; font-size: 18px; line-height: 1.55; color: #55525A; max-width: 480px">Las apps se quedan con hasta un 30% de cada pedido. Mové los números con lo que vende tu local y mirá lo que podés recuperar.</p>
 </div>
-<div style="flex: 1 1 460px; min-width: 0; background: #FFFFFF; border-radius: 28px; padding: 36px; box-sizing: border-box; box-shadow: 0 30px 70px rgba(60,40,20,0.14)">
+<div style="flex: 1 1 460px; min-width: 0; background: #FFFFFF; border-radius: 28px; padding: 36px; box-sizing: border-box; box-shadow: 0 30px 70px rgba(17,17,17,0.14)">
 <label for="ventas" style="display: flex; justify-content: space-between; font-weight: 600; font-size: 15px"><span>Vendés por apps, por mes</span><span style="font-variant-numeric: tabular-nums"><span id="ventasTxt">$3.000.000</span></span></label>
 <input id="ventas" type="range" min="500000" max="50000000" step="500000" value="3000000">
 <label for="pasa" style="margin-top: 22px; display: flex; justify-content: space-between; font-weight: 600; font-size: 15px"><span>Pedidos que pasan a tu canal</span><span style="font-variant-numeric: tabular-nums"><span id="pasaTxt">25%</span></span></label>
 <input id="pasa" type="range" min="10" max="60" step="5" value="25">
 <div style="margin-top: 28px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px">
-<div style="background: #F4F6F4; border-radius: 18px; padding: 18px"><p style="margin: 0; font-size: 13px; color: #4B5B53">Hoy le pagás a las apps</p><p style="margin: 6px 0 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 700; font-size: 26px; font-variant-numeric: tabular-nums"><span id="comisionTxt">$840.000</span></p></div>
-<div style="background: #0F3D2E; color: #FFFFFF; border-radius: 18px; padding: 18px"><p style="margin: 0; font-size: 13px; color: #CFE0D7">Recuperás cada mes</p><p style="margin: 6px 0 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 700; font-size: 26px; font-variant-numeric: tabular-nums; color: #C8F169"><span id="ahorroTxt">$210.000</span></p></div>
+<div style="background: #F5F5F5; border-radius: 18px; padding: 18px"><p style="margin: 0; font-size: 13px; color: #52525B">Hoy le pagás a las apps</p><p style="margin: 6px 0 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 700; font-size: 26px; font-variant-numeric: tabular-nums"><span id="comisionTxt">$840.000</span></p></div>
+<div style="background: #111111; color: #FFFFFF; border-radius: 18px; padding: 18px"><p style="margin: 0; font-size: 13px; color: #D4D4D8">Recuperás cada mes</p><p style="margin: 6px 0 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 700; font-size: 26px; font-variant-numeric: tabular-nums; color: #EC2D74"><span id="ahorroTxt">$210.000</span></p></div>
 </div>
-<p style="margin: 16px 0 0; font-size: 15px; color: #0B1F17">En un año son <b style="font-variant-numeric: tabular-nums"><span id="anualTxt">$2.520.000</span></b> que quedan en tu local.</p>
-<p style="margin: 8px 0 0; font-size: 12px; color: #5C6B63">Cálculo estimado con una comisión del 28%.</p>
+<p style="margin: 16px 0 0; font-size: 15px; color: #111111">En un año son <b style="font-variant-numeric: tabular-nums"><span id="anualTxt">$2.520.000</span></b> que quedan en tu local.</p>
+<p style="margin: 8px 0 0; font-size: 12px; color: #5F5F68">Cálculo estimado con una comisión del 28%.</p>
 </div>
 </div>
 </section>
@@ -826,29 +826,29 @@ Más visitas en Google
 <div style="max-width: 1200px; margin: 0 auto">
 <h2 class="vm-reveal" style="margin: 0; max-width: 820px; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 700; font-size: clamp(34px, 4.4vw, 56px); line-height: 1.05; letter-spacing: -0.04em">La misma tecnología que las grandes cadenas, en tu local.</h2>
 
-<div class="vm-reveal" style="margin-top: 48px; position: relative; border-radius: 32px; overflow: hidden; background: radial-gradient(120% 90% at 80% 20%, #1F6B45 0%, #0F3D2E 45%, #0B1F17 100%); color: #FFFFFF; min-height: 640px; display: flex; flex-wrap: wrap; align-items: flex-end">
+<div class="vm-reveal" style="margin-top: 48px; position: relative; border-radius: 32px; overflow: hidden; background: radial-gradient(120% 90% at 80% 20%, #6B1238 0%, #111111 45%, #111111 100%); color: #FFFFFF; min-height: 640px; display: flex; flex-wrap: wrap; align-items: flex-end">
 <svg class="vm-drift" viewBox="0 0 1200 640" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%" fill="none" aria-hidden="true">
-<path class="vm-flow" d="M600 700 C 700 400, 900 250, 1300 120" stroke="rgba(200,241,105,0.25)" stroke-width="1.5"></path>
-<path class="vm-flow" d="M520 700 C 640 380, 860 200, 1300 40" stroke="rgba(200,241,105,0.18)" stroke-width="1.5"></path>
-<path class="vm-flow2" d="M680 700 C 760 440, 940 320, 1300 200" stroke="rgba(200,241,105,0.35)" stroke-width="2"></path>
+<path class="vm-flow" d="M600 700 C 700 400, 900 250, 1300 120" stroke="rgba(236,45,116,0.25)" stroke-width="1.5"></path>
+<path class="vm-flow" d="M520 700 C 640 380, 860 200, 1300 40" stroke="rgba(236,45,116,0.18)" stroke-width="1.5"></path>
+<path class="vm-flow2" d="M680 700 C 760 440, 940 320, 1300 200" stroke="rgba(236,45,116,0.35)" stroke-width="2"></path>
 </svg>
 <div style="position: relative; z-index: 1; flex: 1 1 400px; min-width: 0; padding: 56px">
-<p style="margin: 0; font-size: 14px; font-weight: 600; color: #C8F169">Tu propia tienda</p>
+<p style="margin: 0; font-size: 14px; font-weight: 600; color: #EC2D74">Tu propia tienda</p>
 <p style="margin: 12px 0 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 700; font-size: clamp(28px, 3vw, 40px); line-height: 1.1; letter-spacing: -0.035em; max-width: 440px">Tus clientes ya piden con el celular. Por eso tu local tiene su tienda, con tu nombre.</p>
 </div>
 <div style="position: relative; z-index: 1; flex: 1 1 420px; min-width: 0; display: flex; justify-content: center; padding-top: 56px">
-<div class="vm-float" style="width: 320px; height: 600px; margin-bottom: -60px; border-radius: 50px; background: #121513; padding: 11px; box-sizing: border-box; box-shadow: 0 50px 100px rgba(0,0,0,0.5), inset 0 0 0 2px #2A2F2C">
-<div style="height: 100%; border-radius: 40px; overflow: hidden; background: #FFFFFF; font-size: 12px; color: #0B1F17">
+<div class="vm-float" style="width: 320px; height: 600px; margin-bottom: -60px; border-radius: 50px; background: #111111; padding: 11px; box-sizing: border-box; box-shadow: 0 50px 100px rgba(0,0,0,0.5), inset 0 0 0 2px #2A2A2E">
+<div style="height: 100%; border-radius: 40px; overflow: hidden; background: #FFFFFF; font-size: 12px; color: #111111">
 <div style="height: 210px; background: linear-gradient(160deg, #7C2D12 0%, #C2410C 60%, #F59E0B 100%); position: relative; display: flex; align-items: flex-end; padding: 18px; box-sizing: border-box">
 <svg viewBox="0 0 24 24" width="150" height="150" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="position: absolute; right: -10px; top: 10px"><path d="M4 10a8 6 0 0 1 16 0Z M3 13h18 M4 16h16v1a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3Z"></path></svg>
 <div style="color: #FFFFFF; position: relative"><p style="margin: 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 800; font-size: 24px; letter-spacing: -0.02em">Fuego Burgers</p><p style="margin: 2px 0 0; font-size: 12px; color: #FFEDD5">Av. Libertador · Abierto</p></div>
 </div>
 <div style="padding: 14px; display: flex; flex-direction: column; gap: 10px">
-<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; background: #F4F4F2; padding: 4px; border-radius: 999px; font-weight: 600; text-align: center"><span style="background: #FFFFFF; border-radius: 999px; padding: 8px">Retiro</span><span style="padding: 8px; color: #5C6B63">Envío</span></div>
-<div style="display: flex; gap: 14px; font-weight: 600; border-bottom: 1px solid #EEE; padding-bottom: 8px"><span style="border-bottom: 2px solid #0B1F17; padding-bottom: 6px">Novedades</span><span style="color: #5C6B63">Burgers</span><span style="color: #5C6B63">Papas</span><span style="color: #5C6B63">Bebidas</span></div>
-<div style="background: #FFF7ED; border-radius: 14px; padding: 12px; display: flex; gap: 10px; align-items: center"><span style="width: 30px; height: 30px; border-radius: 10px; background: #C2410C; display: grid; place-items: center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12v9H4v-9M2 7h20v5H2zM12 21V7"></path></svg></span><div><p style="margin: 0; font-weight: 700">Promos</p><p style="margin: 1px 0 0; color: #5C6B63">2x1 los martes</p></div></div>
-<div style="display: flex; justify-content: space-between; align-items: center; padding: 6px 0"><div><p style="margin: 0; font-weight: 700; font-size: 13px">Doble cheddar</p><p style="margin: 3px 0 0; color: #5C6B63">Dos medallones, cheddar, panceta</p><p style="margin: 4px 0 0; font-weight: 700">$12.900</p></div><span style="width: 56px; height: 56px; border-radius: 14px; background: linear-gradient(140deg, #F59E0B, #B45309); flex: none"></span></div>
-<div style="display: flex; justify-content: space-between; align-items: center; padding: 6px 0"><div><p style="margin: 0; font-weight: 700; font-size: 13px">Clásica</p><p style="margin: 3px 0 0; color: #5C6B63">Lechuga, tomate y salsa de la casa</p><p style="margin: 4px 0 0; font-weight: 700">$9.800</p></div><span style="width: 56px; height: 56px; border-radius: 14px; background: linear-gradient(140deg, #FCD34D, #D97706); flex: none"></span></div>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; background: #F4F4F4; padding: 4px; border-radius: 999px; font-weight: 600; text-align: center"><span style="background: #FFFFFF; border-radius: 999px; padding: 8px">Retiro</span><span style="padding: 8px; color: #5F5F68">Envío</span></div>
+<div style="display: flex; gap: 14px; font-weight: 600; border-bottom: 1px solid #EEE; padding-bottom: 8px"><span style="border-bottom: 2px solid #111111; padding-bottom: 6px">Novedades</span><span style="color: #5F5F68">Burgers</span><span style="color: #5F5F68">Papas</span><span style="color: #5F5F68">Bebidas</span></div>
+<div style="background: #FFF7ED; border-radius: 14px; padding: 12px; display: flex; gap: 10px; align-items: center"><span style="width: 30px; height: 30px; border-radius: 10px; background: #C2410C; display: grid; place-items: center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12v9H4v-9M2 7h20v5H2zM12 21V7"></path></svg></span><div><p style="margin: 0; font-weight: 700">Promos</p><p style="margin: 1px 0 0; color: #5F5F68">2x1 los martes</p></div></div>
+<div style="display: flex; justify-content: space-between; align-items: center; padding: 6px 0"><div><p style="margin: 0; font-weight: 700; font-size: 13px">Doble cheddar</p><p style="margin: 3px 0 0; color: #5F5F68">Dos medallones, cheddar, panceta</p><p style="margin: 4px 0 0; font-weight: 700">$12.900</p></div><span style="width: 56px; height: 56px; border-radius: 14px; background: linear-gradient(140deg, #F59E0B, #B45309); flex: none"></span></div>
+<div style="display: flex; justify-content: space-between; align-items: center; padding: 6px 0"><div><p style="margin: 0; font-weight: 700; font-size: 13px">Clásica</p><p style="margin: 3px 0 0; color: #5F5F68">Lechuga, tomate y salsa de la casa</p><p style="margin: 4px 0 0; font-weight: 700">$9.800</p></div><span style="width: 56px; height: 56px; border-radius: 14px; background: linear-gradient(140deg, #FCD34D, #D97706); flex: none"></span></div>
 </div>
 </div>
 </div>
@@ -856,32 +856,32 @@ Más visitas en Google
 </div>
 
 <div style="margin-top: 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 24px">
-<div class="vm-reveal" style="position: relative; border-radius: 32px; overflow: hidden; background: linear-gradient(140deg, #22C55E 0%, #86EFAC 100%); min-height: 520px; padding: 44px; box-sizing: border-box; display: flex; flex-direction: column">
-<p style="margin: 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 700; font-size: 28px; line-height: 1.15; letter-spacing: -0.03em; max-width: 360px; color: #0B1F17">Un folleto con QR en cada bolsa que sale.</p>
+<div class="vm-reveal" style="position: relative; border-radius: 32px; overflow: hidden; background: linear-gradient(140deg, #F0609A 0%, #FBCFE0 100%); min-height: 520px; padding: 44px; box-sizing: border-box; display: flex; flex-direction: column">
+<p style="margin: 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 700; font-size: 28px; line-height: 1.15; letter-spacing: -0.03em; max-width: 360px; color: #111111">Un folleto con QR en cada bolsa que sale.</p>
 <p style="margin: 10px 0 0; font-size: 16px; line-height: 1.5; color: #14361F; max-width: 380px">Así pasás a tu canal a los clientes que hoy te piden por las apps.</p>
 <div style="margin-top: auto; padding-top: 32px; display: flex; justify-content: center">
-<div class="vm-bob" style="width: 230px; background: #FFFFFF; border-radius: 18px; padding: 22px; box-shadow: 0 30px 60px rgba(6,60,25,0.3); text-align: center">
+<div class="vm-bob" style="width: 230px; background: #FFFFFF; border-radius: 18px; padding: 22px; box-shadow: 0 30px 60px rgba(120,10,50,0.3); text-align: center">
 <p style="margin: 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 800; font-size: 18px; color: #C2410C">La Esquina Pizzas</p>
-<p style="margin: 4px 0 0; font-size: 12px; color: #4B5B53">La próxima, pedinos directo</p>
-<svg viewBox="0 0 21 21" width="130" height="130" role="img" aria-label="Código QR de ejemplo" style="margin-top: 14px" shape-rendering="crispEdges"><path fill="#0B1F17" d="M0 0h7v7H0zM2 2v3h3V2zM14 0h7v7h-7zM16 2v3h3V2zM0 14h7v7H0zM2 16v3h3v-3zM9 0h1v2H9zM11 1h2v1h-2zM8 3h2v1H8zM11 3h1v3h-1zM9 5h1v2H9zM8 8h3v1H8zM12 8h2v1h-2zM15 8h1v2h-1zM17 8h4v1h-4zM0 9h2v1H0zM3 9h3v1H3zM9 10h2v2H9zM13 10h1v1h-1zM18 10h2v2h-2zM1 11h1v2H1zM4 11h2v1H4zM12 12h3v1h-3zM16 12h1v3h-1zM8 13h2v1H8zM19 13h2v1h-2zM9 15h1v2H9zM11 14h1v3h-1zM13 15h2v1h-2zM18 15h1v2h-1zM8 18h2v1H8zM12 18h1v3h-1zM14 17h3v1h-3zM19 18h2v3h-2zM15 19h2v2h-2zM9 20h2v1H9z"></path></svg>
-<p style="margin: 10px 0 0; font-size: 13px; font-weight: 700; color: #0B1F17">Cada 5 pedidos, 15% off</p>
+<p style="margin: 4px 0 0; font-size: 12px; color: #52525B">La próxima, pedinos directo</p>
+<svg viewBox="0 0 21 21" width="130" height="130" role="img" aria-label="Código QR de ejemplo" style="margin-top: 14px" shape-rendering="crispEdges"><path fill="#111111" d="M0 0h7v7H0zM2 2v3h3V2zM14 0h7v7h-7zM16 2v3h3V2zM0 14h7v7H0zM2 16v3h3v-3zM9 0h1v2H9zM11 1h2v1h-2zM8 3h2v1H8zM11 3h1v3h-1zM9 5h1v2H9zM8 8h3v1H8zM12 8h2v1h-2zM15 8h1v2h-1zM17 8h4v1h-4zM0 9h2v1H0zM3 9h3v1H3zM9 10h2v2H9zM13 10h1v1h-1zM18 10h2v2h-2zM1 11h1v2H1zM4 11h2v1H4zM12 12h3v1h-3zM16 12h1v3h-1zM8 13h2v1H8zM19 13h2v1h-2zM9 15h1v2H9zM11 14h1v3h-1zM13 15h2v1h-2zM18 15h1v2h-1zM8 18h2v1H8zM12 18h1v3h-1zM14 17h3v1h-3zM19 18h2v3h-2zM15 19h2v2h-2zM9 20h2v1H9z"></path></svg>
+<p style="margin: 10px 0 0; font-size: 13px; font-weight: 700; color: #111111">Cada 5 pedidos, 15% off</p>
 </div>
 </div>
 </div>
 
-<div class="vm-reveal" style="position: relative; border-radius: 32px; overflow: hidden; background: #EFE6DA; min-height: 520px; padding: 44px; box-sizing: border-box; display: flex; flex-direction: column">
+<div class="vm-reveal" style="position: relative; border-radius: 32px; overflow: hidden; background: #F1ECEE; min-height: 520px; padding: 44px; box-sizing: border-box; display: flex; flex-direction: column">
 <p style="margin: 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 700; font-size: 28px; line-height: 1.15; letter-spacing: -0.03em; max-width: 380px">Cada pedido suena y entra ordenado. Nada de chats sueltos.</p>
-<p style="margin: 10px 0 0; font-size: 16px; line-height: 1.5; color: #5A4E42; max-width: 380px">Lo marcás listo y le avisás al cliente por WhatsApp con un toque.</p>
+<p style="margin: 10px 0 0; font-size: 16px; line-height: 1.5; color: #55525A; max-width: 380px">Lo marcás listo y le avisás al cliente por WhatsApp con un toque.</p>
 <div style="margin-top: auto; padding-top: 32px; display: flex; flex-direction: column; gap: 10px; font-size: 14px">
-<div style="display: flex; justify-content: space-between; align-items: center"><p style="margin: 0; font-weight: 700; font-size: 16px">Pedidos</p><span style="display: inline-flex; align-items: center; gap: 8px; color: #4B5B53; font-size: 13px"><span class="vm-pulse" style="width: 8px; height: 8px; border-radius: 999px; background: #22C55E; display: inline-block"></span>En vivo</span></div>
-<div style="background: #FFFFFF; border: 2px solid #0F3D2E; border-radius: 18px; padding: 16px; box-shadow: 0 20px 40px rgba(60,40,20,0.12)">
+<div style="display: flex; justify-content: space-between; align-items: center"><p style="margin: 0; font-weight: 700; font-size: 16px">Pedidos</p><span style="display: inline-flex; align-items: center; gap: 8px; color: #52525B; font-size: 13px"><span class="vm-pulse" style="width: 8px; height: 8px; border-radius: 999px; background: #22C55E; display: inline-block"></span>En vivo</span></div>
+<div style="background: #FFFFFF; border: 2px solid #111111; border-radius: 18px; padding: 16px; box-shadow: 0 20px 40px rgba(17,17,17,0.12)">
 <div style="display: flex; justify-content: space-between; gap: 8px; flex-wrap: wrap"><p style="margin: 0; font-weight: 700">#128 · Sofía <span style="margin-left: 6px; font-size: 12px; font-weight: 600; background: #DBEAFE; color: #1E40AF; padding: 2px 8px; border-radius: 999px">nuevo</span></p><p style="margin: 0; font-weight: 700">$22.400</p></div>
-<p style="margin: 6px 0 0; color: #4B5B53">Envío · Santa Lucía · Mercado Pago</p>
-<span style="margin-top: 12px; display: inline-block; background: #0B1F17; color: #FFFFFF; padding: 9px 16px; border-radius: 999px; font-weight: 600; font-size: 13px">Empezar a preparar</span>
+<p style="margin: 6px 0 0; color: #52525B">Envío · Santa Lucía · Mercado Pago</p>
+<span style="margin-top: 12px; display: inline-block; background: #111111; color: #FFFFFF; padding: 9px 16px; border-radius: 999px; font-weight: 600; font-size: 13px">Empezar a preparar</span>
 </div>
 <div style="background: #FFFFFF; border-radius: 18px; padding: 16px">
 <div style="display: flex; justify-content: space-between; gap: 8px; flex-wrap: wrap"><p style="margin: 0; font-weight: 700">#127 · Martín <span style="margin-left: 6px; font-size: 12px; font-weight: 600; background: #FEF3C7; color: #92400E; padding: 2px 8px; border-radius: 999px">preparando</span></p><p style="margin: 0; font-weight: 700">$14.000</p></div>
-<p style="margin: 6px 0 0; color: #4B5B53">Retiro · Efectivo · Cupón PROMO10</p>
+<p style="margin: 6px 0 0; color: #52525B">Retiro · Efectivo · Cupón PROMO10</p>
 </div>
 </div>
 </div>
@@ -890,18 +890,18 @@ Más visitas en Google
 </section>
 
 <!-- COMPARACION -->
-<section style="background: #F4F6F4">
+<section style="background: #F5F5F5">
 <div style="max-width: 960px; margin: 0 auto; padding: 112px 24px">
 <h2 class="vm-reveal" style="margin: 0; text-align: center; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 700; font-size: clamp(32px, 4vw, 52px); line-height: 1.06; letter-spacing: -0.04em">Apps de delivery o tu canal propio</h2>
-<div style="margin-top: 48px; overflow-x: auto; background: #FFFFFF; border-radius: 24px; box-shadow: 0 20px 50px rgba(11,31,23,0.08)">
+<div style="margin-top: 48px; overflow-x: auto; background: #FFFFFF; border-radius: 24px; box-shadow: 0 20px 50px rgba(17,17,17,0.08)">
 <table style="width: 100%; min-width: 560px; border-collapse: collapse; font-size: 16px">
-<thead><tr style="text-align: left"><th style="padding: 22px 24px; font-weight: 600"></th><th style="padding: 22px 24px; font-weight: 600; color: #4B5B53">Apps de delivery</th><th style="padding: 22px 24px; font-weight: 700; color: #0F3D2E; background: #E8F8EC">vos mandá</th></tr></thead>
+<thead><tr style="text-align: left"><th style="padding: 22px 24px; font-weight: 600"></th><th style="padding: 22px 24px; font-weight: 600; color: #52525B">Apps de delivery</th><th style="padding: 22px 24px; font-weight: 700; color: #B3124F; background: #FDE8F0">vosmandá</th></tr></thead>
 <tbody>
-<tr style="border-top: 1px solid #E3E8E4"><td style="padding: 18px 24px; font-weight: 600">Comisión por pedido</td><td style="padding: 18px 24px; color: #4B5B53">Hasta 30%</td><td style="padding: 18px 24px; font-weight: 700; background: #E8F8EC">0%</td></tr>
-<tr style="border-top: 1px solid #E3E8E4"><td style="padding: 18px 24px; font-weight: 600">Los datos del cliente</td><td style="padding: 18px 24px; color: #4B5B53">Son de la app</td><td style="padding: 18px 24px; font-weight: 700; background: #E8F8EC">Son tuyos</td></tr>
-<tr style="border-top: 1px solid #E3E8E4"><td style="padding: 18px 24px; font-weight: 600">La competencia al lado</td><td style="padding: 18px 24px; color: #4B5B53">Sí</td><td style="padding: 18px 24px; font-weight: 700; background: #E8F8EC">No</td></tr>
-<tr style="border-top: 1px solid #E3E8E4"><td style="padding: 18px 24px; font-weight: 600">Cuándo cobrás</td><td style="padding: 18px 24px; color: #4B5B53">Cuando liquidan</td><td style="padding: 18px 24px; font-weight: 700; background: #E8F8EC">Al instante</td></tr>
-<tr style="border-top: 1px solid #E3E8E4"><td style="padding: 18px 24px; font-weight: 600">Promos para que vuelvan</td><td style="padding: 18px 24px; color: #4B5B53">Las paga el local</td><td style="padding: 18px 24px; font-weight: 700; background: #E8F8EC">Automáticas, incluidas</td></tr>
+<tr style="border-top: 1px solid #E7E7E9"><td style="padding: 18px 24px; font-weight: 600">Comisión por pedido</td><td style="padding: 18px 24px; color: #52525B">Hasta 30%</td><td style="padding: 18px 24px; font-weight: 700; background: #FDE8F0">0%</td></tr>
+<tr style="border-top: 1px solid #E7E7E9"><td style="padding: 18px 24px; font-weight: 600">Los datos del cliente</td><td style="padding: 18px 24px; color: #52525B">Son de la app</td><td style="padding: 18px 24px; font-weight: 700; background: #FDE8F0">Son tuyos</td></tr>
+<tr style="border-top: 1px solid #E7E7E9"><td style="padding: 18px 24px; font-weight: 600">La competencia al lado</td><td style="padding: 18px 24px; color: #52525B">Sí</td><td style="padding: 18px 24px; font-weight: 700; background: #FDE8F0">No</td></tr>
+<tr style="border-top: 1px solid #E7E7E9"><td style="padding: 18px 24px; font-weight: 600">Cuándo cobrás</td><td style="padding: 18px 24px; color: #52525B">Cuando liquidan</td><td style="padding: 18px 24px; font-weight: 700; background: #FDE8F0">Al instante</td></tr>
+<tr style="border-top: 1px solid #E7E7E9"><td style="padding: 18px 24px; font-weight: 600">Promos para que vuelvan</td><td style="padding: 18px 24px; color: #52525B">Las paga el local</td><td style="padding: 18px 24px; font-weight: 700; background: #FDE8F0">Automáticas, incluidas</td></tr>
 </tbody>
 </table>
 </div>
@@ -912,62 +912,62 @@ Más visitas en Google
 <section id="precios">
 <div style="max-width: 1200px; margin: 0 auto; padding: 112px 24px">
 <h2 class="vm-reveal" style="margin: 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 700; font-size: clamp(34px, 4.4vw, 56px); line-height: 1.05; letter-spacing: -0.04em">Un precio fijo. Sin comisión por pedido.</h2>
-<p style="margin: 16px 0 0; font-size: 18px; color: #4B5B53">7 días de prueba sin pagar. Sin contrato: si no te sirve, lo cortás.</p>
+<p style="margin: 16px 0 0; font-size: 18px; color: #52525B">7 días de prueba sin pagar. Sin contrato: si no te sirve, lo cortás.</p>
 <div style="margin-top: 48px; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px">
-<div class="vm-card" style="background: #F4F6F4; border-radius: 28px; padding: 40px; display: flex; flex-direction: column">
+<div class="vm-card" style="background: #F5F5F5; border-radius: 28px; padding: 40px; display: flex; flex-direction: column">
 <p style="margin: 0; font-weight: 700; font-size: 20px">Base</p>
-<p style="margin: 8px 0 0; color: #4B5B53">Tu canal de pedidos completo.</p>
-<p style="margin: 28px 0 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 800; font-size: 52px; letter-spacing: -0.04em">$35.000<span style="font-size: 18px; font-weight: 600; color: #4B5B53; letter-spacing: 0"> /mes</span></p>
+<p style="margin: 8px 0 0; color: #52525B">Tu canal de pedidos completo.</p>
+<p style="margin: 28px 0 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 800; font-size: 52px; letter-spacing: -0.04em">$35.000<span style="font-size: 18px; font-weight: 600; color: #52525B; letter-spacing: 0"> /mes</span></p>
 <ul style="margin: 28px 0 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 12px; font-size: 16px; flex: 1">
-<li style="display: flex; gap: 10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0F3D2E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none"><path d="M5 12l5 5L20 7"></path></svg>Tienda online con tu carta y tu marca</li>
-<li style="display: flex; gap: 10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0F3D2E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none"><path d="M5 12l5 5L20 7"></path></svg>Cobros con Mercado Pago y transferencia</li>
-<li style="display: flex; gap: 10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0F3D2E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none"><path d="M5 12l5 5L20 7"></path></svg>Panel de pedidos en vivo y clientes</li>
-<li style="display: flex; gap: 10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0F3D2E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none"><path d="M5 12l5 5L20 7"></path></svg>Cupones y premios automáticos, saludos de cumpleaños</li>
-<li style="display: flex; gap: 10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0F3D2E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none"><path d="M5 12l5 5L20 7"></path></svg>Folletos con QR para tus bolsas</li>
+<li style="display: flex; gap: 10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none"><path d="M5 12l5 5L20 7"></path></svg>Tienda online con tu carta y tu marca</li>
+<li style="display: flex; gap: 10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none"><path d="M5 12l5 5L20 7"></path></svg>Cobros con Mercado Pago y transferencia</li>
+<li style="display: flex; gap: 10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none"><path d="M5 12l5 5L20 7"></path></svg>Panel de pedidos en vivo y clientes</li>
+<li style="display: flex; gap: 10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none"><path d="M5 12l5 5L20 7"></path></svg>Cupones y premios automáticos, saludos de cumpleaños</li>
+<li style="display: flex; gap: 10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none"><path d="M5 12l5 5L20 7"></path></svg>Folletos con QR para tus bolsas</li>
 </ul>
-<a class="vm-btn" href="#demo" style="margin-top: 32px; text-align: center; padding: 16px; border-radius: 14px; border: 2px solid #0B1F17; color: #0B1F17; font-weight: 700; text-decoration: none">Probar 7 días gratis</a>
+<a class="vm-btn" href="#demo" style="margin-top: 32px; text-align: center; padding: 16px; border-radius: 14px; border: 2px solid #111111; color: #111111; font-weight: 700; text-decoration: none">Probar 7 días gratis</a>
 </div>
-<div class="vm-card" style="position: relative; overflow: hidden; background: #0F3D2E; color: #FFFFFF; border-radius: 28px; padding: 40px; display: flex; flex-direction: column">
-<svg viewBox="0 0 400 600" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%" fill="none" aria-hidden="true"><path class="vm-flow" d="M-20 620 C 120 420, 240 300, 440 80" stroke="rgba(200,241,105,0.2)" stroke-width="1.5"></path><path class="vm-flow2" d="M40 640 C 160 460, 280 360, 460 160" stroke="rgba(200,241,105,0.3)" stroke-width="1.5"></path></svg>
-<div style="position: relative; display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap"><p style="margin: 0; font-weight: 700; font-size: 20px">Crecimiento</p><span style="background: #C8F169; color: #0B1F17; font-size: 13px; font-weight: 700; padding: 5px 12px; border-radius: 999px">Te traemos clientes</span></div>
-<p style="position: relative; margin: 8px 0 0; color: #CFE0D7">Todo lo de Base, más quien te mueva las ventas.</p>
-<p style="position: relative; margin: 28px 0 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 800; font-size: 52px; letter-spacing: -0.04em">$150.000<span style="font-size: 18px; font-weight: 600; color: #CFE0D7; letter-spacing: 0"> /mes</span></p>
+<div class="vm-card" style="position: relative; overflow: hidden; background: #111111; color: #FFFFFF; border-radius: 28px; padding: 40px; display: flex; flex-direction: column">
+<svg viewBox="0 0 400 600" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%" fill="none" aria-hidden="true"><path class="vm-flow" d="M-20 620 C 120 420, 240 300, 440 80" stroke="rgba(236,45,116,0.2)" stroke-width="1.5"></path><path class="vm-flow2" d="M40 640 C 160 460, 280 360, 460 160" stroke="rgba(236,45,116,0.3)" stroke-width="1.5"></path></svg>
+<div style="position: relative; display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap"><p style="margin: 0; font-weight: 700; font-size: 20px">Crecimiento</p><span style="background: #EC2D74; color: #111111; font-size: 13px; font-weight: 700; padding: 5px 12px; border-radius: 999px">Te traemos clientes</span></div>
+<p style="position: relative; margin: 8px 0 0; color: #D4D4D8">Todo lo de Base, más quien te mueva las ventas.</p>
+<p style="position: relative; margin: 28px 0 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 800; font-size: 52px; letter-spacing: -0.04em">$150.000<span style="font-size: 18px; font-weight: 600; color: #D4D4D8; letter-spacing: 0"> /mes</span></p>
 <ul style="position: relative; margin: 28px 0 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 12px; font-size: 16px; flex: 1">
-<li style="display: flex; gap: 10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C8F169" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none"><path d="M5 12l5 5L20 7"></path></svg>Todo el plan Base</li>
-<li style="display: flex; gap: 10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C8F169" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none"><path d="M5 12l5 5L20 7"></path></svg>Anuncios en Instagram y Facebook para tu zona</li>
-<li style="display: flex; gap: 10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C8F169" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none"><path d="M5 12l5 5L20 7"></path></svg>Fotos y videos de tus platos cada mes</li>
-<li style="display: flex; gap: 10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C8F169" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none"><path d="M5 12l5 5L20 7"></path></svg>Tu perfil de Google Maps con botón de pedir</li>
-<li style="display: flex; gap: 10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C8F169" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none"><path d="M5 12l5 5L20 7"></path></svg>Reporte mensual: cuánto vendiste y cuánto ahorraste</li>
+<li style="display: flex; gap: 10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#EC2D74" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none"><path d="M5 12l5 5L20 7"></path></svg>Todo el plan Base</li>
+<li style="display: flex; gap: 10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#EC2D74" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none"><path d="M5 12l5 5L20 7"></path></svg>Anuncios en Instagram y Facebook para tu zona</li>
+<li style="display: flex; gap: 10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#EC2D74" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none"><path d="M5 12l5 5L20 7"></path></svg>Fotos y videos de tus platos cada mes</li>
+<li style="display: flex; gap: 10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#EC2D74" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none"><path d="M5 12l5 5L20 7"></path></svg>Tu perfil de Google Maps con botón de pedir</li>
+<li style="display: flex; gap: 10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#EC2D74" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none"><path d="M5 12l5 5L20 7"></path></svg>Reporte mensual: cuánto vendiste y cuánto ahorraste</li>
 </ul>
-<a class="vm-btn" href="#demo" style="position: relative; margin-top: 32px; text-align: center; padding: 16px; border-radius: 14px; background: #C8F169; color: #0B1F17; font-weight: 700; text-decoration: none">Quiero crecer</a>
+<a class="vm-btn" href="#demo" style="position: relative; margin-top: 32px; text-align: center; padding: 16px; border-radius: 14px; background: #EC2D74; color: #111111; font-weight: 700; text-decoration: none">Quiero crecer</a>
 </div>
 </div>
-<p style="margin: 20px 0 0; font-size: 14px; color: #4B5B53">La plata de los anuncios la pone el local y se maneja desde su propia cuenta.</p>
+<p style="margin: 20px 0 0; font-size: 14px; color: #52525B">La plata de los anuncios la pone el local y se maneja desde su propia cuenta.</p>
 </div>
 </section>
 
 <!-- CREENCIAS -->
-<section style="background: #F6EFE7">
+<section style="background: #F6F4F5">
 <div style="max-width: 1200px; margin: 0 auto; padding: 112px 24px; display: flex; gap: 56px; flex-wrap: wrap; align-items: flex-start">
 <div style="flex: 1 1 360px; min-width: 0">
 <h2 class="vm-reveal" style="margin: 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 700; font-size: clamp(34px, 4.4vw, 56px); line-height: 1.05; letter-spacing: -0.04em">3 cosas en las que creemos</h2>
 <div style="margin-top: 32px; background: #FFFFFF; border-radius: 22px; padding: 20px; display: flex; gap: 14px; align-items: center; max-width: 360px">
-<svg width="52" height="52" viewBox="0 0 48 48" aria-hidden="true" style="flex: none"><path fill="#0F3D2E" d="M14 4h20c5.5 0 10 4.5 10 10v14c0 5.5-4.5 10-10 10H19l-9.5 6.5c-.7.5-1.5 0-1.5-.8v-6.5C5.6 35.5 4 32.4 4 28V14C4 8.5 8.5 4 14 4z"></path><path d="M15.5 20.5l7 8 10.5-13" fill="none" stroke="#C8F169" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-<div><p style="margin: 0; font-weight: 700">El equipo de vos mandá</p><p style="margin: 2px 0 0; font-size: 14px; color: #5A4E42">De San Juan, para los locales de San Juan</p></div>
+<svg width="52" height="52" viewBox="0 0 100 100" aria-hidden="true" style="flex: none"><defs><mask id="vmlogo1"><rect width="100" height="100" fill="#fff"/><path d="M12 40 A9.5 9.5 0 0 0 31 40 A9.5 9.5 0 0 0 50 40 A9.5 9.5 0 0 0 69 40 A9.5 9.5 0 0 0 88 40" fill="none" stroke="#000" stroke-width="6.5" stroke-linecap="round"/><path d="M42 93 V77 A8 8 0 0 1 58 77 V93 Z" fill="#000"/></mask></defs><rect x="6" y="8" width="88" height="84" rx="22" fill="#EC2D74" mask="url(#vmlogo1)"/></svg>
+<div><p style="margin: 0; font-weight: 700">El equipo de vosmandá</p><p style="margin: 2px 0 0; font-size: 14px; color: #55525A">De San Juan, para los locales de San Juan</p></div>
 </div>
 </div>
 <div style="flex: 1 1 520px; min-width: 0; display: flex; flex-direction: column">
-<div class="vm-reveal" style="padding: 32px 0; border-top: 1px solid #DDD2C4">
+<div class="vm-reveal" style="padding: 32px 0; border-top: 1px solid #E2DDE0">
 <p style="margin: 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 700; font-size: 26px; line-height: 1.2; letter-spacing: -0.02em">Preferimos que vendas más a cobrarte por cada pedido.</p>
-<p style="margin: 12px 0 0; font-size: 17px; line-height: 1.6; color: #5A4E42">Por eso cobramos un precio fijo. Cada peso que vendés por tu canal queda en tu caja.</p>
+<p style="margin: 12px 0 0; font-size: 17px; line-height: 1.6; color: #55525A">Por eso cobramos un precio fijo. Cada peso que vendés por tu canal queda en tu caja.</p>
 </div>
-<div class="vm-reveal" style="padding: 32px 0; border-top: 1px solid #DDD2C4">
+<div class="vm-reveal" style="padding: 32px 0; border-top: 1px solid #E2DDE0">
 <p style="margin: 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 700; font-size: 26px; line-height: 1.2; letter-spacing: -0.02em">Un local de barrio merece la tecnología de una cadena.</p>
-<p style="margin: 12px 0 0; font-size: 17px; line-height: 1.6; color: #5A4E42">Las cadenas tienen equipos enteros para su app y su web. Nosotros somos ese equipo para tu local: vamos, te armamos todo y te atendemos el teléfono.</p>
+<p style="margin: 12px 0 0; font-size: 17px; line-height: 1.6; color: #55525A">Las cadenas tienen equipos enteros para su app y su web. Nosotros somos ese equipo para tu local: vamos, te armamos todo y te atendemos el teléfono.</p>
 </div>
-<div class="vm-reveal" style="padding: 32px 0; border-top: 1px solid #DDD2C4; border-bottom: 1px solid #DDD2C4">
+<div class="vm-reveal" style="padding: 32px 0; border-top: 1px solid #E2DDE0; border-bottom: 1px solid #E2DDE0">
 <p style="margin: 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 700; font-size: 26px; line-height: 1.2; letter-spacing: -0.02em">Lo que armás es tuyo.</p>
-<p style="margin: 12px 0 0; font-size: 17px; line-height: 1.6; color: #5A4E42">Tus clientes, tu carta y tus números. Si un día te vas, te llevás la lista de clientes.</p>
+<p style="margin: 12px 0 0; font-size: 17px; line-height: 1.6; color: #55525A">Tus clientes, tu carta y tus números. Si un día te vas, te llevás la lista de clientes.</p>
 </div>
 </div>
 </div>
@@ -978,18 +978,18 @@ Más visitas en Google
 <div style="max-width: 820px; margin: 0 auto; padding: 112px 24px">
 <h2 class="vm-reveal" style="margin: 0 0 40px; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 700; font-size: clamp(32px, 4vw, 52px); line-height: 1.06; letter-spacing: -0.04em">Preguntas frecuentes</h2>
 <div style="display: flex; flex-direction: column; gap: 12px">
-<details style="background: #F4F6F4; border-radius: 18px; padding: 22px 24px"><summary style="font-weight: 700; font-size: 18px">¿Mis clientes tienen que descargar algo?</summary><p style="margin: 12px 0 0; font-size: 16px; line-height: 1.6; color: #4B5B53">No. Entran desde un link o un QR, eligen y piden. Funciona en cualquier celular.</p></details>
-<details style="background: #F4F6F4; border-radius: 18px; padding: 22px 24px"><summary style="font-weight: 700; font-size: 18px">¿Tengo que dejar PedidosYa?</summary><p style="margin: 12px 0 0; font-size: 16px; line-height: 1.6; color: #4B5B53">No. Seguís en las apps y vas pasando a tu canal a los clientes que ya te conocen, con el folleto en cada bolsa.</p></details>
-<details style="background: #F4F6F4; border-radius: 18px; padding: 22px 24px"><summary style="font-weight: 700; font-size: 18px">¿Quién cobra la plata?</summary><p style="margin: 12px 0 0; font-size: 16px; line-height: 1.6; color: #4B5B53">Vos. Mercado Pago y las transferencias van directo a tu cuenta. Nosotros no tocamos tu plata.</p></details>
-<details style="background: #F4F6F4; border-radius: 18px; padding: 22px 24px"><summary style="font-weight: 700; font-size: 18px">¿Y si no sé de tecnología?</summary><p style="margin: 12px 0 0; font-size: 16px; line-height: 1.6; color: #4B5B53">Si usás WhatsApp, usás vos mandá. Nosotros cargamos todo y te enseñamos en tu local.</p></details>
-<details style="background: #F4F6F4; border-radius: 18px; padding: 22px 24px"><summary style="font-weight: 700; font-size: 18px">¿Hay contrato?</summary><p style="margin: 12px 0 0; font-size: 16px; line-height: 1.6; color: #4B5B53">No. Probás 7 días sin pagar y después es mes a mes.</p></details>
+<details style="background: #F5F5F5; border-radius: 18px; padding: 22px 24px"><summary style="font-weight: 700; font-size: 18px">¿Mis clientes tienen que descargar algo?</summary><p style="margin: 12px 0 0; font-size: 16px; line-height: 1.6; color: #52525B">No. Entran desde un link o un QR, eligen y piden. Funciona en cualquier celular.</p></details>
+<details style="background: #F5F5F5; border-radius: 18px; padding: 22px 24px"><summary style="font-weight: 700; font-size: 18px">¿Tengo que dejar PedidosYa?</summary><p style="margin: 12px 0 0; font-size: 16px; line-height: 1.6; color: #52525B">No. Seguís en las apps y vas pasando a tu canal a los clientes que ya te conocen, con el folleto en cada bolsa.</p></details>
+<details style="background: #F5F5F5; border-radius: 18px; padding: 22px 24px"><summary style="font-weight: 700; font-size: 18px">¿Quién cobra la plata?</summary><p style="margin: 12px 0 0; font-size: 16px; line-height: 1.6; color: #52525B">Vos. Mercado Pago y las transferencias van directo a tu cuenta. Nosotros no tocamos tu plata.</p></details>
+<details style="background: #F5F5F5; border-radius: 18px; padding: 22px 24px"><summary style="font-weight: 700; font-size: 18px">¿Y si no sé de tecnología?</summary><p style="margin: 12px 0 0; font-size: 16px; line-height: 1.6; color: #52525B">Si usás WhatsApp, usás vosmandá. Nosotros cargamos todo y te enseñamos en tu local.</p></details>
+<details style="background: #F5F5F5; border-radius: 18px; padding: 22px 24px"><summary style="font-weight: 700; font-size: 18px">¿Hay contrato?</summary><p style="margin: 12px 0 0; font-size: 16px; line-height: 1.6; color: #52525B">No. Probás 7 días sin pagar y después es mes a mes.</p></details>
 </div>
 </div>
 </section>
 
 <!-- CTA FINAL -->
 <section id="demo" style="padding: 0 24px 112px">
-<div style="position: relative; max-width: 1200px; margin: 0 auto; border-radius: 36px; overflow: hidden; background: linear-gradient(120deg, #0A6B2F 0%, #0F7F38 50%, #22A653 100%); color: #FFFFFF; text-align: center; padding: 104px 24px">
+<div style="position: relative; max-width: 1200px; margin: 0 auto; border-radius: 36px; overflow: hidden; background: linear-gradient(120deg, #9E0F45 0%, #C4175C 50%, #D61F69 100%); color: #FFFFFF; text-align: center; padding: 104px 24px">
 <svg class="vm-drift" viewBox="0 0 1200 520" preserveAspectRatio="none" style="position: absolute; inset: -6%; width: 112%; height: 112%" fill="none" aria-hidden="true">
 <path class="vm-flow" d="M-50 520 C 300 380, 600 300, 1250 40" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"></path>
 <path class="vm-flow" d="M-50 580 C 320 440, 640 360, 1250 120" stroke="rgba(255,255,255,0.22)" stroke-width="1.5"></path>
@@ -997,27 +997,27 @@ Más visitas en Google
 </svg>
 <div style="position: relative">
 <h2 style="margin: 0 auto; max-width: 860px; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 700; font-size: clamp(38px, 5.4vw, 72px); line-height: 1.02; letter-spacing: -0.045em">La forma más simple de vender más por tu cuenta.</h2>
-<p style="margin: 20px auto 0; max-width: 560px; font-size: 19px; line-height: 1.5; color: #E8F8EC">Escribinos y te mostramos tu tienda armada con tu carta, sin compromiso.</p>
+<p style="margin: 20px auto 0; max-width: 560px; font-size: 19px; line-height: 1.5; color: #FDE8F0">Escribinos y te mostramos tu tienda armada con tu carta, sin compromiso.</p>
 <div style="margin-top: 36px; display: flex; gap: 12px; flex-wrap: wrap; justify-content: center">
-<a class="vm-btn" href="https://wa.me/5492644774889" style="display: inline-flex; align-items: center; gap: 10px; height: 56px; padding: 0 28px; border-radius: 14px; background: #0B1F17; color: #FFFFFF; font-weight: 700; font-size: 16px; text-decoration: none">
+<a class="vm-btn" href="https://wa.me/5492644774889" style="display: inline-flex; align-items: center; gap: 10px; height: 56px; padding: 0 28px; border-radius: 14px; background: #111111; color: #FFFFFF; font-weight: 700; font-size: 16px; text-decoration: none">
 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12a8.5 8.5 0 0 1-12.6 7.4L3 21l1.6-5.3A8.5 8.5 0 1 1 21 12z"></path></svg>Hablar por WhatsApp</a>
-<a class="vm-btn" href="https://manda-plum.vercel.app/la-esquina" style="display: inline-flex; align-items: center; height: 56px; padding: 0 28px; border-radius: 14px; background: #FFFFFF; color: #0B1F17; font-weight: 700; font-size: 16px; text-decoration: none">Ver una tienda de ejemplo</a>
+<a class="vm-btn" href="https://manda-plum.vercel.app/la-esquina" style="display: inline-flex; align-items: center; height: 56px; padding: 0 28px; border-radius: 14px; background: #FFFFFF; color: #111111; font-weight: 700; font-size: 16px; text-decoration: none">Ver una tienda de ejemplo</a>
 </div>
 </div>
 </div>
 </section>
 
 <!-- FOOTER -->
-<footer style="background: #0B1F17; color: #A9C4B6">
+<footer style="background: #111111; color: #A1A1AA">
 <div style="max-width: 1200px; margin: 0 auto; padding: 48px 24px; display: flex; gap: 24px; flex-wrap: wrap; justify-content: space-between; align-items: center; font-size: 14px">
-<span style="display: flex; align-items: center; gap: 9px"><svg width="34" height="34" viewBox="0 0 48 48" aria-hidden="true" style="flex: none"><path fill="#C8F169" d="M14 4h20c5.5 0 10 4.5 10 10v14c0 5.5-4.5 10-10 10H19l-9.5 6.5c-.7.5-1.5 0-1.5-.8v-6.5C5.6 35.5 4 32.4 4 28V14C4 8.5 8.5 4 14 4z"></path><path d="M15.5 20.5l7 8 10.5-13" fill="none" stroke="#0F3D2E" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"></path></svg><span style="font-family: 'Inter Tight', Inter, sans-serif; font-size: 24px; letter-spacing: -0.04em; line-height: 1; color: #FFFFFF"><span style="font-weight: 500">vos</span><span style="font-weight: 800">mandá</span></span></span>
+<span style="display: flex; align-items: center; gap: 9px"><svg viewBox="0 0 445.65 100" height="34" width="152" aria-hidden="true" style="flex: none; display: block"><defs><mask id="vmlogo2"><rect width="100" height="100" fill="#fff"/><path d="M12 40 A9.5 9.5 0 0 0 31 40 A9.5 9.5 0 0 0 50 40 A9.5 9.5 0 0 0 69 40 A9.5 9.5 0 0 0 88 40" fill="none" stroke="#000" stroke-width="6.5" stroke-linecap="round"/><path d="M42 93 V77 A8 8 0 0 1 58 77 V93 Z" fill="#000"/></mask></defs><rect x="6" y="8" width="88" height="84" rx="22" fill="#EC2D74" mask="url(#vmlogo2)"/><path d="M137.03 67.5 122.16 33.69H132.2L142.95 61.55H137.93L148.71 33.69H158.47L143.59 67.5Z M176.5 68.23Q171.4 68.23 167.3 65.89Q163.2 63.55 160.8 59.52Q158.4 55.49 158.4 50.52Q158.4 45.55 160.79 41.6Q163.18 37.64 167.28 35.3Q171.39 32.95 176.48 32.95Q181.62 32.95 185.72 35.27Q189.81 37.59 192.21 41.57Q194.61 45.55 194.61 50.52Q194.61 55.49 192.22 59.52Q189.83 63.55 185.74 65.89Q181.64 68.23 176.5 68.23ZM176.48 59.66Q179.07 59.66 181.05 58.5Q183.02 57.35 184.12 55.28Q185.21 53.2 185.21 50.54Q185.21 47.88 184.08 45.86Q182.95 43.84 181.01 42.69Q179.07 41.53 176.48 41.53Q173.96 41.53 171.98 42.69Q170 43.86 168.9 45.88Q167.8 47.9 167.8 50.56Q167.8 53.2 168.9 55.28Q170 57.35 171.98 58.5Q173.96 59.66 176.48 59.66Z M211.06 68.29Q208.15 68.29 205.41 67.53Q202.66 66.77 200.34 65.37Q198.02 63.98 196.34 62.04L201.82 56.51Q203.55 58.45 205.84 59.46Q208.14 60.46 210.94 60.46Q213.18 60.46 214.34 59.81Q215.5 59.15 215.5 57.91Q215.5 56.51 214.27 55.76Q213.04 55 211.09 54.45Q209.15 53.9 207 53.26Q204.85 52.62 202.89 51.52Q200.94 50.42 199.72 48.49Q198.49 46.55 198.49 43.49Q198.49 40.25 200.09 37.88Q201.68 35.51 204.6 34.19Q207.52 32.87 211.53 32.87Q215.71 32.87 219.12 34.33Q222.52 35.79 224.73 38.71L219.23 44.24Q217.69 42.39 215.75 41.54Q213.81 40.69 211.62 40.69Q209.55 40.69 208.48 41.31Q207.4 41.93 207.4 43.07Q207.4 44.31 208.62 45.01Q209.85 45.71 211.79 46.24Q213.74 46.76 215.88 47.44Q218.02 48.11 219.97 49.29Q221.91 50.47 223.13 52.43Q224.36 54.39 224.36 57.52Q224.36 62.48 220.77 65.38Q217.18 68.29 211.06 68.29Z M229.42 67.5V33.69H238.62V67.5ZM251.47 67.5V47.55Q251.47 44.59 249.63 42.95Q247.79 41.3 245.08 41.3Q243.22 41.3 241.77 42.05Q240.32 42.79 239.47 44.18Q238.62 45.57 238.62 47.55L235.03 45.8Q235.03 41.86 236.76 39.01Q238.48 36.16 241.42 34.57Q244.36 32.99 248.04 32.99Q251.59 32.99 254.45 34.56Q257.31 36.14 258.99 38.98Q260.67 41.83 260.67 45.78V67.5ZM273.52 67.5V47.55Q273.52 44.59 271.68 42.95Q269.84 41.3 267.13 41.3Q265.33 41.3 263.85 42.05Q262.37 42.79 261.52 44.18Q260.67 45.57 260.67 47.55L255.4 46.31Q255.67 42.21 257.56 39.25Q259.46 36.28 262.55 34.63Q265.64 32.99 269.42 32.99Q273.18 32.99 276.18 34.58Q279.19 36.17 280.95 39.1Q282.72 42.02 282.72 46.11V67.5Z M303.2 68.2Q298.58 68.2 294.89 65.89Q291.21 63.58 289.08 59.61Q286.96 55.63 286.96 50.65Q286.96 45.61 289.08 41.63Q291.21 37.64 294.89 35.32Q298.58 32.99 303.2 32.99Q306.84 32.99 309.71 34.48Q312.58 35.96 314.32 38.57Q316.06 41.18 316.18 44.5V56.69Q316.06 60.01 314.34 62.62Q312.63 65.22 309.73 66.71Q306.84 68.2 303.2 68.2ZM304.91 59.73Q308.76 59.73 311.12 57.17Q313.49 54.6 313.49 50.59Q313.49 47.9 312.42 45.84Q311.35 43.79 309.43 42.62Q307.5 41.46 304.93 41.46Q302.41 41.46 300.48 42.62Q298.56 43.79 297.45 45.85Q296.34 47.92 296.34 50.59Q296.34 53.27 297.44 55.34Q298.54 57.4 300.47 58.57Q302.41 59.73 304.91 59.73ZM313.01 67.5V58.42L314.48 50.17L313.01 42V33.69H322.13V67.5Z M351.91 67.5V48.13Q351.91 45.1 350.02 43.2Q348.13 41.3 345.19 41.3Q343.19 41.3 341.64 42.16Q340.1 43.02 339.24 44.57Q338.37 46.11 338.37 48.13L334.78 46.27Q334.78 42.33 336.51 39.35Q338.23 36.37 341.27 34.68Q344.31 32.99 348.16 32.99Q351.9 32.99 354.83 34.84Q357.76 36.7 359.44 39.69Q361.12 42.69 361.12 46.08V67.5ZM329.16 67.5V33.69H338.37V67.5Z M381.74 68.2Q377.05 68.2 373.34 65.89Q369.63 63.58 367.49 59.61Q365.36 55.63 365.36 50.64Q365.36 45.58 367.49 41.61Q369.63 37.64 373.32 35.32Q377.02 32.99 381.74 32.99Q385.39 32.99 388.31 34.48Q391.22 35.96 393.01 38.57Q394.81 41.18 394.93 44.5V56.51Q394.81 59.84 393.04 62.49Q391.27 65.14 388.33 66.67Q385.39 68.2 381.74 68.2ZM383.31 59.73Q385.9 59.73 387.81 58.57Q389.72 57.4 390.8 55.35Q391.89 53.29 391.89 50.59Q391.89 47.88 390.81 45.84Q389.73 43.8 387.81 42.63Q385.9 41.46 383.35 41.46Q380.81 41.46 378.89 42.63Q376.97 43.81 375.85 45.86Q374.74 47.92 374.74 50.59Q374.74 53.27 375.83 55.34Q376.93 57.4 378.88 58.56Q380.83 59.73 383.31 59.73ZM400.53 67.5H391.41V58.42L392.88 50.17L391.33 42V16.89H400.53Z M421.71 68.2Q417.09 68.2 413.4 65.89Q409.72 63.58 407.59 59.61Q405.47 55.63 405.47 50.65Q405.47 45.61 407.59 41.63Q409.72 37.64 413.4 35.32Q417.09 32.99 421.71 32.99Q425.35 32.99 428.22 34.48Q431.09 35.96 432.83 38.57Q434.57 41.18 434.69 44.5V56.69Q434.57 60.01 432.85 62.62Q431.14 65.22 428.24 66.71Q425.35 68.2 421.71 68.2ZM423.42 59.73Q427.27 59.73 429.63 57.17Q432 54.6 432 50.59Q432 47.9 430.93 45.84Q429.86 43.79 427.94 42.62Q426.01 41.46 423.44 41.46Q420.92 41.46 418.99 42.62Q417.07 43.79 415.96 45.85Q414.85 47.92 414.85 50.59Q414.85 53.27 415.95 55.34Q417.05 57.4 418.98 58.57Q420.92 59.73 423.42 59.73ZM431.52 67.5V58.42L432.99 50.17L431.52 42V33.69H440.64V67.5ZM419.76 29.37 416.26 25.04 426.31 14.12 432.22 21.25Z" fill="#FFFFFF"/></svg></span>
 <nav aria-label="Pie" style="display: flex; gap: 24px; flex-wrap: wrap">
-<a href="#producto" style="color: #A9C4B6; text-decoration: none">Producto</a>
-<a href="#precios" style="color: #A9C4B6; text-decoration: none">Precios</a>
-<a href="#preguntas" style="color: #A9C4B6; text-decoration: none">Preguntas</a>
-<a href="https://manda-plum.vercel.app/la-esquina" style="color: #A9C4B6; text-decoration: none">Tienda de ejemplo</a>
+<a href="#producto" style="color: #A1A1AA; text-decoration: none">Producto</a>
+<a href="#precios" style="color: #A1A1AA; text-decoration: none">Precios</a>
+<a href="#preguntas" style="color: #A1A1AA; text-decoration: none">Preguntas</a>
+<a href="https://manda-plum.vercel.app/la-esquina" style="color: #A1A1AA; text-decoration: none">Tienda de ejemplo</a>
 </nav>
-<span>© 2026 vos mandá · San Juan, Argentina</span>
+<span>© 2026 vosmandá · San Juan, Argentina</span>
 </div>
 </footer>
 
@@ -1035,8 +1035,8 @@ document.getElementById('ahorroTxt').textContent=fmt(ah);
 document.getElementById('anualTxt').textContent=fmt(ah*12);}
 v.addEventListener('input',calc);p.addEventListener('input',calc);calc();
 var tabs=[].slice.call(document.querySelectorAll('[data-tab]')),panels=[].slice.call(document.querySelectorAll('[data-panel]')),cur=0,timer;
-function show(i){cur=i;tabs.forEach(function(t,k){var on=k===i;t.setAttribute('aria-selected',on?'true':'false');t.style.color=on?'#0B1F17':'#7A847F';
-var track=t.lastElementChild;track.innerHTML='';if(on){var f=document.createElement('span');f.className='vm-fill';f.style.cssText='display:block;height:100%;background:#0B1F17';track.appendChild(f);}});
+function show(i){cur=i;tabs.forEach(function(t,k){var on=k===i;t.setAttribute('aria-selected',on?'true':'false');t.style.color=on?'#111111':'#7C7C85';
+var track=t.lastElementChild;track.innerHTML='';if(on){var f=document.createElement('span');f.className='vm-fill';f.style.cssText='display:block;height:100%;background:#111111';track.appendChild(f);}});
 panels.forEach(function(p,k){p.hidden=k!==i;});}
 function start(){clearInterval(timer);timer=setInterval(function(){show((cur+1)%tabs.length);},7000);}
 tabs.forEach(function(t,k){t.addEventListener('click',function(){show(k);start();});});
