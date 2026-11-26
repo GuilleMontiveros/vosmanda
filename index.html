@@ -47,6 +47,8 @@ details summary::-webkit-details-marker{display:none}
 .vm-bob{animation:vm-bob 5s ease-in-out infinite}
 @keyframes vm-pulse{0%{box-shadow:0 0 0 0 rgba(34,197,94,.55)}100%{box-shadow:0 0 0 10px rgba(34,197,94,0)}}
 .vm-pulse{animation:vm-pulse 1.6s ease-out infinite}
+@keyframes vm-pulse-f{0%{box-shadow:0 0 0 0 rgba(236,45,116,.55)}100%{box-shadow:0 0 0 10px rgba(236,45,116,0)}}
+.vm-pulse-f{animation:vm-pulse-f 1.6s ease-out infinite}
 @keyframes vm-blink{50%{opacity:.25}}
 .vm-blink{animation:vm-blink 1.2s steps(2,start) infinite}
 @supports (animation-timeline: view()){.vm-reveal{animation:vm-in linear both;animation-timeline:view();animation-range:entry 0% cover 20%}}
@@ -58,7 +60,7 @@ details summary::-webkit-details-marker{display:none}
 .vm-tab:hover{color:#111111 !important}
 @media (max-width: 960px){.vm-side{display:none !important}}
 @media (max-width: 700px){nav[aria-label="Principal"] a:not(.vm-btn){display:none !important}}
-@media (prefers-reduced-motion: reduce){.vm-rot,.vm-flow,.vm-flow2,.vm-drift,.vm-track,.vm-phone,.vm-float,.vm-bob,.vm-pulse,.vm-reveal,.vm-blink,.vm-in{animation:none !important}.vm-toast{animation:none !important;opacity:0}.vm-toast.vm-d0{opacity:1}.vm-fill{animation:none !important;transform:scaleX(1)}}
+@media (prefers-reduced-motion: reduce){.vm-rot,.vm-pulse-f,.vm-flow,.vm-flow2,.vm-drift,.vm-track,.vm-phone,.vm-float,.vm-bob,.vm-pulse,.vm-reveal,.vm-blink,.vm-in{animation:none !important}.vm-toast{animation:none !important;opacity:0}.vm-toast.vm-d0{opacity:1}.vm-fill{animation:none !important;transform:scaleX(1)}}
 </style>
 
 <style>html{scroll-behavior:smooth}[hidden]{display:none !important}</style>
@@ -90,9 +92,9 @@ details summary::-webkit-details-marker{display:none}
 <!-- CARRUSEL DE RUBROS -->
 <section id="inicio" style="padding: 56px 24px 0">
 <div style="max-width: 1240px; margin: 0 auto; text-align: center">
-<p style="margin: 0; display: inline-flex; align-items: center; gap: 10px; font-size: 14px; color: #52525B; font-weight: 500">
-<span class="vm-pulse" style="width: 8px; height: 8px; border-radius: 999px; background: #22C55E; display: inline-block"></span>
-Hecho en San Juan · 0% de comisión por pedido</p>
+<p style="margin: 0; display: inline-flex; align-items: center; gap: 10px; padding: 9px 18px; border-radius: 999px; background: #FDE8F0; color: #B3124F; font-size: 15px; font-weight: 700; flex-wrap: wrap; justify-content: center">
+<span class="vm-pulse-f" style="width: 8px; height: 8px; border-radius: 999px; background: #EC2D74; display: inline-block"></span>
+Pedidos, ya. Comisión, nunca.<span style="font-weight: 500; color: #52525B">0% por pedido, siempre</span></p>
 <h1 style="margin: 20px auto 0; max-width: 1100px; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 700; font-size: clamp(40px, 5.6vw, 82px); line-height: 1.12; letter-spacing: -0.045em; color: #3A3F3C">
 <span style="display: block">La plataforma para que tu local</span>
 <span style="display: block; height: 1.12em; overflow: hidden; color: #111111">
